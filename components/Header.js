@@ -28,7 +28,6 @@ const Header = () => {
             </div>
 
             <div className="flex items-center space-x-4 justify-end text-gray-500">
-                <p className="mx-2 font-bold cursor-pointer">Postavi oglas</p>
 
                 <div className="flex border-2 p-2 rounded-full cursor-pointer">
                     <MenuAlt4Icon className="h-6" />
