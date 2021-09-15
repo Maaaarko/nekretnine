@@ -8,7 +8,7 @@ import {
 
 const Header = () => {
     return (
-        <header className="sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md: px-10">
+        <header className="sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10">
             <div className="relative flex items-center h-10 cursor-pointer my-auto">
                 <Image
                     src="/images/logo.png"
@@ -28,7 +28,6 @@ const Header = () => {
             </div>
 
             <div className="flex items-center space-x-4 justify-end text-gray-500">
-
                 <div className="flex border-2 p-2 rounded-full cursor-pointer">
                     <MenuAlt4Icon className="h-6" />
                     <UserCircleIcon className="h-6" />
