@@ -41,7 +41,7 @@ const Header = () => {
                     <li
                         key={index}
                         onClick={() => onClick(item)}
-                        className="rounded-full flex items-center px-4 h-10 hover:bg-gray-200 overflow-hidden whitespace-nowrap overflow-ellipsis">
+                        className="rounded-full flex items-center px-4 h-10 hover:bg-gray-200 active:scale-95 transition duration-150 overflow-hidden whitespace-nowrap overflow-ellipsis cursor-pointer">
                         {item.ime}, {item.zupanija}
                     </li>
                 ))}
@@ -50,7 +50,7 @@ const Header = () => {
     }
 
     return (
-        <header className="sticky top-0 z-50 grid  grid-cols-2 md:grid-cols-3  bg-white shadow-md p-5 md:px-10">
+        <header className="sticky top-0 z-50 grid  grid-cols-2 md:grid-cols-3 bg-white shadow-md p-5 md:px-10">
             <div className="hidden relative md:flex items-center h-10 cursor-pointer ">
                 <Image
                     src="/images/logo.png"
