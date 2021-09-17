@@ -1,826 +1,3003 @@
 [
-    { "id": "1171", "ime": "Berek", "zupanija": "Bjelovarsko-bilogorska" },
-    { "id": "1172", "ime": "Bjelovar", "zupanija": "Bjelovarsko-bilogorska" },
+    {
+        "id": "1171",
+        "ime": "Berek",
+        "zupanija": { "ime": "Bjelovarsko-bilogorska", "id": "1150" }
+    },
+    {
+        "id": "1172",
+        "ime": "Bjelovar",
+        "zupanija": { "ime": "Bjelovarsko-bilogorska", "id": "1150" }
+    },
     {
         "id": "1173",
         "ime": "Bjelovar - Okolica",
-        "zupanija": "Bjelovarsko-bilogorska"
+        "zupanija": { "ime": "Bjelovarsko-bilogorska", "id": "1150" }
     },
-    { "id": "1174", "ime": "Čazma", "zupanija": "Bjelovarsko-bilogorska" },
-    { "id": "1175", "ime": "Daruvar", "zupanija": "Bjelovarsko-bilogorska" },
-    { "id": "1176", "ime": "Dežanovac", "zupanija": "Bjelovarsko-bilogorska" },
-    { "id": "1177", "ime": "Đulovac", "zupanija": "Bjelovarsko-bilogorska" },
-    { "id": "1178", "ime": "Garešnica", "zupanija": "Bjelovarsko-bilogorska" },
+    {
+        "id": "1174",
+        "ime": "Čazma",
+        "zupanija": { "ime": "Bjelovarsko-bilogorska", "id": "1150" }
+    },
+    {
+        "id": "1175",
+        "ime": "Daruvar",
+        "zupanija": { "ime": "Bjelovarsko-bilogorska", "id": "1150" }
+    },
+    {
+        "id": "1176",
+        "ime": "Dežanovac",
+        "zupanija": { "ime": "Bjelovarsko-bilogorska", "id": "1150" }
+    },
+    {
+        "id": "1177",
+        "ime": "Đulovac",
+        "zupanija": { "ime": "Bjelovarsko-bilogorska", "id": "1150" }
+    },
+    {
+        "id": "1178",
+        "ime": "Garešnica",
+        "zupanija": { "ime": "Bjelovarsko-bilogorska", "id": "1150" }
+    },
     {
         "id": "1179",
         "ime": "Grubišno Polje",
-        "zupanija": "Bjelovarsko-bilogorska"
+        "zupanija": { "ime": "Bjelovarsko-bilogorska", "id": "1150" }
     },
-    { "id": "1180", "ime": "Hercegovac", "zupanija": "Bjelovarsko-bilogorska" },
-    { "id": "1181", "ime": "Ivanska", "zupanija": "Bjelovarsko-bilogorska" },
-    { "id": "1182", "ime": "Kapela", "zupanija": "Bjelovarsko-bilogorska" },
-    { "id": "1183", "ime": "Končanica", "zupanija": "Bjelovarsko-bilogorska" },
-    { "id": "1184", "ime": "Nova Rača", "zupanija": "Bjelovarsko-bilogorska" },
-    { "id": "1185", "ime": "Rovišće", "zupanija": "Bjelovarsko-bilogorska" },
-    { "id": "1186", "ime": "Severin", "zupanija": "Bjelovarsko-bilogorska" },
-    { "id": "1187", "ime": "Sirač", "zupanija": "Bjelovarsko-bilogorska" },
-    { "id": "1188", "ime": "Šandrovac", "zupanija": "Bjelovarsko-bilogorska" },
-    { "id": "1189", "ime": "Štefanje", "zupanija": "Bjelovarsko-bilogorska" },
+    {
+        "id": "1180",
+        "ime": "Hercegovac",
+        "zupanija": { "ime": "Bjelovarsko-bilogorska", "id": "1150" }
+    },
+    {
+        "id": "1181",
+        "ime": "Ivanska",
+        "zupanija": { "ime": "Bjelovarsko-bilogorska", "id": "1150" }
+    },
+    {
+        "id": "1182",
+        "ime": "Kapela",
+        "zupanija": { "ime": "Bjelovarsko-bilogorska", "id": "1150" }
+    },
+    {
+        "id": "1183",
+        "ime": "Končanica",
+        "zupanija": { "ime": "Bjelovarsko-bilogorska", "id": "1150" }
+    },
+    {
+        "id": "1184",
+        "ime": "Nova Rača",
+        "zupanija": { "ime": "Bjelovarsko-bilogorska", "id": "1150" }
+    },
+    {
+        "id": "1185",
+        "ime": "Rovišće",
+        "zupanija": { "ime": "Bjelovarsko-bilogorska", "id": "1150" }
+    },
+    {
+        "id": "1186",
+        "ime": "Severin",
+        "zupanija": { "ime": "Bjelovarsko-bilogorska", "id": "1150" }
+    },
+    {
+        "id": "1187",
+        "ime": "Sirač",
+        "zupanija": { "ime": "Bjelovarsko-bilogorska", "id": "1150" }
+    },
+    {
+        "id": "1188",
+        "ime": "Šandrovac",
+        "zupanija": { "ime": "Bjelovarsko-bilogorska", "id": "1150" }
+    },
+    {
+        "id": "1189",
+        "ime": "Štefanje",
+        "zupanija": { "ime": "Bjelovarsko-bilogorska", "id": "1150" }
+    },
     {
         "id": "1190",
         "ime": "Velika Pisanica",
-        "zupanija": "Bjelovarsko-bilogorska"
+        "zupanija": { "ime": "Bjelovarsko-bilogorska", "id": "1150" }
     },
     {
         "id": "1191",
         "ime": "Velika Trnovitica",
-        "zupanija": "Bjelovarsko-bilogorska"
+        "zupanija": { "ime": "Bjelovarsko-bilogorska", "id": "1150" }
     },
     {
         "id": "1192",
         "ime": "Veliki Grđevac",
-        "zupanija": "Bjelovarsko-bilogorska"
+        "zupanija": { "ime": "Bjelovarsko-bilogorska", "id": "1150" }
     },
     {
         "id": "1193",
         "ime": "Veliko Trojstvo",
-        "zupanija": "Bjelovarsko-bilogorska"
+        "zupanija": { "ime": "Bjelovarsko-bilogorska", "id": "1150" }
     },
     {
         "id": "1194",
         "ime": "Zrinski Topolovac",
-        "zupanija": "Bjelovarsko-bilogorska"
+        "zupanija": { "ime": "Bjelovarsko-bilogorska", "id": "1150" }
     },
-    { "id": "1265", "ime": "Bale", "zupanija": "Istarska" },
-    { "id": "1266", "ime": "Barban", "zupanija": "Istarska" },
-    { "id": "1267", "ime": "Brtonigla", "zupanija": "Istarska" },
-    { "id": "1268", "ime": "Buje", "zupanija": "Istarska" },
-    { "id": "1269", "ime": "Buzet", "zupanija": "Istarska" },
-    { "id": "1270", "ime": "Cerovlje", "zupanija": "Istarska" },
-    { "id": "1271", "ime": "Fažana", "zupanija": "Istarska" },
-    { "id": "15203", "ime": "Funtana", "zupanija": "Istarska" },
-    { "id": "1272", "ime": "Gračišće", "zupanija": "Istarska" },
-    { "id": "1273", "ime": "Grožnjan", "zupanija": "Istarska" },
-    { "id": "1274", "ime": "Kanfanar", "zupanija": "Istarska" },
-    { "id": "1275", "ime": "Karojba", "zupanija": "Istarska" },
-    { "id": "1276", "ime": "Kaštelir-Labinci", "zupanija": "Istarska" },
-    { "id": "1277", "ime": "Kršan", "zupanija": "Istarska" },
-    { "id": "1278", "ime": "Labin", "zupanija": "Istarska" },
-    { "id": "1279", "ime": "Lanišće", "zupanija": "Istarska" },
-    { "id": "1280", "ime": "Ližnjan", "zupanija": "Istarska" },
-    { "id": "1281", "ime": "Lupoglav", "zupanija": "Istarska" },
-    { "id": "1282", "ime": "Marčana", "zupanija": "Istarska" },
-    { "id": "1283", "ime": "Medulin", "zupanija": "Istarska" },
-    { "id": "1284", "ime": "Motovun", "zupanija": "Istarska" },
-    { "id": "1285", "ime": "Novigrad", "zupanija": "Istarska" },
-    { "id": "1286", "ime": "Oprtalj", "zupanija": "Istarska" },
-    { "id": "1287", "ime": "Pazin", "zupanija": "Istarska" },
-    { "id": "1288", "ime": "Pazin - Okolica", "zupanija": "Istarska" },
-    { "id": "1289", "ime": "Pićan", "zupanija": "Istarska" },
-    { "id": "1290", "ime": "Poreč", "zupanija": "Istarska" },
-    { "id": "1291", "ime": "Pula", "zupanija": "Istarska" },
-    { "id": "1293", "ime": "Raša", "zupanija": "Istarska" },
-    { "id": "1294", "ime": "Rovinj", "zupanija": "Istarska" },
-    { "id": "1295", "ime": "Sveta Nedelja", "zupanija": "Istarska" },
-    { "id": "1296", "ime": "Sveti Lovreč", "zupanija": "Istarska" },
-    { "id": "1297", "ime": "Sveti Petar U Šumi", "zupanija": "Istarska" },
-    { "id": "1298", "ime": "Svetvinčenat", "zupanija": "Istarska" },
-    { "id": "13348", "ime": "Tar-Vabriga", "zupanija": "Istarska" },
-    { "id": "1299", "ime": "Tinjan", "zupanija": "Istarska" },
-    { "id": "1300", "ime": "Umag", "zupanija": "Istarska" },
-    { "id": "1301", "ime": "Višnjan", "zupanija": "Istarska" },
-    { "id": "1302", "ime": "Vižinada", "zupanija": "Istarska" },
-    { "id": "1303", "ime": "Vodnjan", "zupanija": "Istarska" },
-    { "id": "1304", "ime": "Vrsar", "zupanija": "Istarska" },
-    { "id": "1305", "ime": "Žminj", "zupanija": "Istarska" },
-    { "id": "1195", "ime": "Bebrina", "zupanija": "Brodsko-posavska" },
-    { "id": "1196", "ime": "Brodski Stupnik", "zupanija": "Brodsko-posavska" },
-    { "id": "1197", "ime": "Bukovlje", "zupanija": "Brodsko-posavska" },
-    { "id": "1198", "ime": "Cernik", "zupanija": "Brodsko-posavska" },
-    { "id": "1199", "ime": "Davor", "zupanija": "Brodsko-posavska" },
-    { "id": "1200", "ime": "Donji Andrijevci", "zupanija": "Brodsko-posavska" },
-    { "id": "1201", "ime": "Dragalić", "zupanija": "Brodsko-posavska" },
-    { "id": "1202", "ime": "Garčin", "zupanija": "Brodsko-posavska" },
-    { "id": "1203", "ime": "Gornja Vrba", "zupanija": "Brodsko-posavska" },
-    { "id": "1204", "ime": "Gornji Bogićevci", "zupanija": "Brodsko-posavska" },
-    { "id": "1205", "ime": "Gundinci", "zupanija": "Brodsko-posavska" },
-    { "id": "1206", "ime": "Klakar", "zupanija": "Brodsko-posavska" },
-    { "id": "1207", "ime": "Nova Gradiška", "zupanija": "Brodsko-posavska" },
-    { "id": "1208", "ime": "Nova Kapela", "zupanija": "Brodsko-posavska" },
-    { "id": "1209", "ime": "Okučani", "zupanija": "Brodsko-posavska" },
-    { "id": "1210", "ime": "Oprisavci", "zupanija": "Brodsko-posavska" },
-    { "id": "1211", "ime": "Oriovac", "zupanija": "Brodsko-posavska" },
-    { "id": "1212", "ime": "Podcrkavlje", "zupanija": "Brodsko-posavska" },
-    { "id": "1213", "ime": "Rešetari", "zupanija": "Brodsko-posavska" },
-    { "id": "1214", "ime": "Sibinj", "zupanija": "Brodsko-posavska" },
-    { "id": "1215", "ime": "Sikirevci", "zupanija": "Brodsko-posavska" },
-    { "id": "1216", "ime": "Slavonski Brod", "zupanija": "Brodsko-posavska" },
-    { "id": "1218", "ime": "Slavonski Šamac", "zupanija": "Brodsko-posavska" },
-    { "id": "1219", "ime": "Stara Gradiška", "zupanija": "Brodsko-posavska" },
+    { "id": "1150", "ime": "Bjelovarsko-bilogorska" },
+    {
+        "id": "1265",
+        "ime": "Bale",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1266",
+        "ime": "Barban",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1267",
+        "ime": "Brtonigla",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1268",
+        "ime": "Buje",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1269",
+        "ime": "Buzet",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1270",
+        "ime": "Cerovlje",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1271",
+        "ime": "Fažana",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "15203",
+        "ime": "Funtana",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1272",
+        "ime": "Gračišće",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1273",
+        "ime": "Grožnjan",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1274",
+        "ime": "Kanfanar",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1275",
+        "ime": "Karojba",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1276",
+        "ime": "Kaštelir-Labinci",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1277",
+        "ime": "Kršan",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1278",
+        "ime": "Labin",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1279",
+        "ime": "Lanišće",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1280",
+        "ime": "Ližnjan",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1281",
+        "ime": "Lupoglav",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1282",
+        "ime": "Marčana",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1283",
+        "ime": "Medulin",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1284",
+        "ime": "Motovun",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1285",
+        "ime": "Novigrad",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1286",
+        "ime": "Oprtalj",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1287",
+        "ime": "Pazin",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1288",
+        "ime": "Pazin - Okolica",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1289",
+        "ime": "Pićan",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1290",
+        "ime": "Poreč",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1291",
+        "ime": "Pula",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1293",
+        "ime": "Raša",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1294",
+        "ime": "Rovinj",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1295",
+        "ime": "Sveta Nedelja",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1296",
+        "ime": "Sveti Lovreč",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1297",
+        "ime": "Sveti Petar U Šumi",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1298",
+        "ime": "Svetvinčenat",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "13348",
+        "ime": "Tar-Vabriga",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1299",
+        "ime": "Tinjan",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1300",
+        "ime": "Umag",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1301",
+        "ime": "Višnjan",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1302",
+        "ime": "Vižinada",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1303",
+        "ime": "Vodnjan",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1304",
+        "ime": "Vrsar",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    {
+        "id": "1305",
+        "ime": "Žminj",
+        "zupanija": { "ime": "Istarska", "id": "1154" }
+    },
+    { "id": "1154", "ime": "Istarska" },
+    {
+        "id": "1195",
+        "ime": "Bebrina",
+        "zupanija": { "ime": "Brodsko-posavska", "id": "1151" }
+    },
+    {
+        "id": "1196",
+        "ime": "Brodski Stupnik",
+        "zupanija": { "ime": "Brodsko-posavska", "id": "1151" }
+    },
+    {
+        "id": "1197",
+        "ime": "Bukovlje",
+        "zupanija": { "ime": "Brodsko-posavska", "id": "1151" }
+    },
+    {
+        "id": "1198",
+        "ime": "Cernik",
+        "zupanija": { "ime": "Brodsko-posavska", "id": "1151" }
+    },
+    {
+        "id": "1199",
+        "ime": "Davor",
+        "zupanija": { "ime": "Brodsko-posavska", "id": "1151" }
+    },
+    {
+        "id": "1200",
+        "ime": "Donji Andrijevci",
+        "zupanija": { "ime": "Brodsko-posavska", "id": "1151" }
+    },
+    {
+        "id": "1201",
+        "ime": "Dragalić",
+        "zupanija": { "ime": "Brodsko-posavska", "id": "1151" }
+    },
+    {
+        "id": "1202",
+        "ime": "Garčin",
+        "zupanija": { "ime": "Brodsko-posavska", "id": "1151" }
+    },
+    {
+        "id": "1203",
+        "ime": "Gornja Vrba",
+        "zupanija": { "ime": "Brodsko-posavska", "id": "1151" }
+    },
+    {
+        "id": "1204",
+        "ime": "Gornji Bogićevci",
+        "zupanija": { "ime": "Brodsko-posavska", "id": "1151" }
+    },
+    {
+        "id": "1205",
+        "ime": "Gundinci",
+        "zupanija": { "ime": "Brodsko-posavska", "id": "1151" }
+    },
+    {
+        "id": "1206",
+        "ime": "Klakar",
+        "zupanija": { "ime": "Brodsko-posavska", "id": "1151" }
+    },
+    {
+        "id": "1207",
+        "ime": "Nova Gradiška",
+        "zupanija": { "ime": "Brodsko-posavska", "id": "1151" }
+    },
+    {
+        "id": "1208",
+        "ime": "Nova Kapela",
+        "zupanija": { "ime": "Brodsko-posavska", "id": "1151" }
+    },
+    {
+        "id": "1209",
+        "ime": "Okučani",
+        "zupanija": { "ime": "Brodsko-posavska", "id": "1151" }
+    },
+    {
+        "id": "1210",
+        "ime": "Oprisavci",
+        "zupanija": { "ime": "Brodsko-posavska", "id": "1151" }
+    },
+    {
+        "id": "1211",
+        "ime": "Oriovac",
+        "zupanija": { "ime": "Brodsko-posavska", "id": "1151" }
+    },
+    {
+        "id": "1212",
+        "ime": "Podcrkavlje",
+        "zupanija": { "ime": "Brodsko-posavska", "id": "1151" }
+    },
+    {
+        "id": "1213",
+        "ime": "Rešetari",
+        "zupanija": { "ime": "Brodsko-posavska", "id": "1151" }
+    },
+    {
+        "id": "1214",
+        "ime": "Sibinj",
+        "zupanija": { "ime": "Brodsko-posavska", "id": "1151" }
+    },
+    {
+        "id": "1215",
+        "ime": "Sikirevci",
+        "zupanija": { "ime": "Brodsko-posavska", "id": "1151" }
+    },
+    {
+        "id": "1216",
+        "ime": "Slavonski Brod",
+        "zupanija": { "ime": "Brodsko-posavska", "id": "1151" }
+    },
+    {
+        "id": "1218",
+        "ime": "Slavonski Šamac",
+        "zupanija": { "ime": "Brodsko-posavska", "id": "1151" }
+    },
+    {
+        "id": "1219",
+        "ime": "Stara Gradiška",
+        "zupanija": { "ime": "Brodsko-posavska", "id": "1151" }
+    },
     {
         "id": "1220",
         "ime": "Staro Petrovo Selo",
-        "zupanija": "Brodsko-posavska"
+        "zupanija": { "ime": "Brodsko-posavska", "id": "1151" }
     },
-    { "id": "1221", "ime": "Velika Kopanica", "zupanija": "Brodsko-posavska" },
-    { "id": "1222", "ime": "Vrbje", "zupanija": "Brodsko-posavska" },
-    { "id": "1223", "ime": "Vrpolje", "zupanija": "Brodsko-posavska" },
-    { "id": "1224", "ime": "Blato", "zupanija": "Dubrovačko-neretvanska" },
+    {
+        "id": "1221",
+        "ime": "Velika Kopanica",
+        "zupanija": { "ime": "Brodsko-posavska", "id": "1151" }
+    },
+    {
+        "id": "1222",
+        "ime": "Vrbje",
+        "zupanija": { "ime": "Brodsko-posavska", "id": "1151" }
+    },
+    {
+        "id": "1223",
+        "ime": "Vrpolje",
+        "zupanija": { "ime": "Brodsko-posavska", "id": "1151" }
+    },
+    { "id": "1151", "ime": "Brodsko-posavska" },
+    {
+        "id": "1224",
+        "ime": "Blato",
+        "zupanija": { "ime": "Dubrovačko-neretvanska", "id": "1152" }
+    },
     {
         "id": "1225",
         "ime": "Dubrovačko Primorje",
-        "zupanija": "Dubrovačko-neretvanska"
+        "zupanija": { "ime": "Dubrovačko-neretvanska", "id": "1152" }
     },
-    { "id": "1226", "ime": "Dubrovnik", "zupanija": "Dubrovačko-neretvanska" },
+    {
+        "id": "1226",
+        "ime": "Dubrovnik",
+        "zupanija": { "ime": "Dubrovačko-neretvanska", "id": "1152" }
+    },
     {
         "id": "1227",
         "ime": "Dubrovnik - Okolica",
-        "zupanija": "Dubrovačko-neretvanska"
+        "zupanija": { "ime": "Dubrovačko-neretvanska", "id": "1152" }
     },
-    { "id": "1228", "ime": "Janjina", "zupanija": "Dubrovačko-neretvanska" },
-    { "id": "1229", "ime": "Konavle", "zupanija": "Dubrovačko-neretvanska" },
-    { "id": "1230", "ime": "Korčula", "zupanija": "Dubrovačko-neretvanska" },
+    {
+        "id": "1228",
+        "ime": "Janjina",
+        "zupanija": { "ime": "Dubrovačko-neretvanska", "id": "1152" }
+    },
+    {
+        "id": "1229",
+        "ime": "Konavle",
+        "zupanija": { "ime": "Dubrovačko-neretvanska", "id": "1152" }
+    },
+    {
+        "id": "1230",
+        "ime": "Korčula",
+        "zupanija": { "ime": "Dubrovačko-neretvanska", "id": "1152" }
+    },
     {
         "id": "1231",
         "ime": "Kula Norinska",
-        "zupanija": "Dubrovačko-neretvanska"
+        "zupanija": { "ime": "Dubrovačko-neretvanska", "id": "1152" }
     },
-    { "id": "1232", "ime": "Lastovo", "zupanija": "Dubrovačko-neretvanska" },
-    { "id": "1233", "ime": "Lumbarda", "zupanija": "Dubrovačko-neretvanska" },
-    { "id": "1234", "ime": "Metković", "zupanija": "Dubrovačko-neretvanska" },
-    { "id": "1235", "ime": "Mljet", "zupanija": "Dubrovačko-neretvanska" },
-    { "id": "1236", "ime": "Opuzen", "zupanija": "Dubrovačko-neretvanska" },
-    { "id": "1237", "ime": "Orebić", "zupanija": "Dubrovačko-neretvanska" },
-    { "id": "1238", "ime": "Ploče", "zupanija": "Dubrovačko-neretvanska" },
-    { "id": "1239", "ime": "Pojezerje", "zupanija": "Dubrovačko-neretvanska" },
-    { "id": "1240", "ime": "Slivno", "zupanija": "Dubrovačko-neretvanska" },
-    { "id": "1241", "ime": "Smokvica", "zupanija": "Dubrovačko-neretvanska" },
-    { "id": "1242", "ime": "Ston", "zupanija": "Dubrovačko-neretvanska" },
-    { "id": "1243", "ime": "Trpanj", "zupanija": "Dubrovačko-neretvanska" },
-    { "id": "1244", "ime": "Vela Luka", "zupanija": "Dubrovačko-neretvanska" },
-    { "id": "1245", "ime": "Zažablje", "zupanija": "Dubrovačko-neretvanska" },
+    {
+        "id": "1232",
+        "ime": "Lastovo",
+        "zupanija": { "ime": "Dubrovačko-neretvanska", "id": "1152" }
+    },
+    {
+        "id": "1233",
+        "ime": "Lumbarda",
+        "zupanija": { "ime": "Dubrovačko-neretvanska", "id": "1152" }
+    },
+    {
+        "id": "1234",
+        "ime": "Metković",
+        "zupanija": { "ime": "Dubrovačko-neretvanska", "id": "1152" }
+    },
+    {
+        "id": "1235",
+        "ime": "Mljet",
+        "zupanija": { "ime": "Dubrovačko-neretvanska", "id": "1152" }
+    },
+    {
+        "id": "1236",
+        "ime": "Opuzen",
+        "zupanija": { "ime": "Dubrovačko-neretvanska", "id": "1152" }
+    },
+    {
+        "id": "1237",
+        "ime": "Orebić",
+        "zupanija": { "ime": "Dubrovačko-neretvanska", "id": "1152" }
+    },
+    {
+        "id": "1238",
+        "ime": "Ploče",
+        "zupanija": { "ime": "Dubrovačko-neretvanska", "id": "1152" }
+    },
+    {
+        "id": "1239",
+        "ime": "Pojezerje",
+        "zupanija": { "ime": "Dubrovačko-neretvanska", "id": "1152" }
+    },
+    {
+        "id": "1240",
+        "ime": "Slivno",
+        "zupanija": { "ime": "Dubrovačko-neretvanska", "id": "1152" }
+    },
+    {
+        "id": "1241",
+        "ime": "Smokvica",
+        "zupanija": { "ime": "Dubrovačko-neretvanska", "id": "1152" }
+    },
+    {
+        "id": "1242",
+        "ime": "Ston",
+        "zupanija": { "ime": "Dubrovačko-neretvanska", "id": "1152" }
+    },
+    {
+        "id": "1243",
+        "ime": "Trpanj",
+        "zupanija": { "ime": "Dubrovačko-neretvanska", "id": "1152" }
+    },
+    {
+        "id": "1244",
+        "ime": "Vela Luka",
+        "zupanija": { "ime": "Dubrovačko-neretvanska", "id": "1152" }
+    },
+    {
+        "id": "1245",
+        "ime": "Zažablje",
+        "zupanija": { "ime": "Dubrovačko-neretvanska", "id": "1152" }
+    },
     {
         "id": "1246",
         "ime": "Župa Dubrovačka",
-        "zupanija": "Dubrovačko-neretvanska"
+        "zupanija": { "ime": "Dubrovačko-neretvanska", "id": "1152" }
     },
-    { "id": "1247", "ime": "Brezovica", "zupanija": "Grad Zagreb" },
-    { "id": "1248", "ime": "Črnomerec", "zupanija": "Grad Zagreb" },
-    { "id": "1249", "ime": "Donja Dubrava", "zupanija": "Grad Zagreb" },
-    { "id": "1250", "ime": "Donji Grad", "zupanija": "Grad Zagreb" },
-    { "id": "1251", "ime": "Gornja Dubrava", "zupanija": "Grad Zagreb" },
+    { "id": "1152", "ime": "Dubrovačko-neretvanska" },
+    {
+        "id": "1247",
+        "ime": "Brezovica",
+        "zupanija": { "ime": "Grad Zagreb", "id": "1153" }
+    },
+    {
+        "id": "1248",
+        "ime": "Črnomerec",
+        "zupanija": { "ime": "Grad Zagreb", "id": "1153" }
+    },
+    {
+        "id": "1249",
+        "ime": "Donja Dubrava",
+        "zupanija": { "ime": "Grad Zagreb", "id": "1153" }
+    },
+    {
+        "id": "1250",
+        "ime": "Donji Grad",
+        "zupanija": { "ime": "Grad Zagreb", "id": "1153" }
+    },
+    {
+        "id": "1251",
+        "ime": "Gornja Dubrava",
+        "zupanija": { "ime": "Grad Zagreb", "id": "1153" }
+    },
     {
         "id": "1252",
         "ime": "Gornji Grad - Medveščak",
-        "zupanija": "Grad Zagreb"
+        "zupanija": { "ime": "Grad Zagreb", "id": "1153" }
     },
-    { "id": "1253", "ime": "Maksimir", "zupanija": "Grad Zagreb" },
-    { "id": "1254", "ime": "Novi Zagreb - Istok", "zupanija": "Grad Zagreb" },
-    { "id": "1255", "ime": "Novi Zagreb - Zapad", "zupanija": "Grad Zagreb" },
-    { "id": "1256", "ime": "Peščenica - Žitnjak", "zupanija": "Grad Zagreb" },
-    { "id": "1257", "ime": "Podsljeme", "zupanija": "Grad Zagreb" },
-    { "id": "1258", "ime": "Podsused - Vrapče", "zupanija": "Grad Zagreb" },
-    { "id": "1259", "ime": "Sesvete", "zupanija": "Grad Zagreb" },
-    { "id": "1260", "ime": "Stenjevec", "zupanija": "Grad Zagreb" },
-    { "id": "1261", "ime": "Trešnjevka - Jug", "zupanija": "Grad Zagreb" },
-    { "id": "1262", "ime": "Trešnjevka - Sjever", "zupanija": "Grad Zagreb" },
-    { "id": "1263", "ime": "Trnje", "zupanija": "Grad Zagreb" },
-    { "id": "1264", "ime": "Zagreb - Okolica", "zupanija": "Grad Zagreb" },
-    { "id": "1306", "ime": "Barilovići", "zupanija": "Karlovačka" },
-    { "id": "1307", "ime": "Bosiljevo", "zupanija": "Karlovačka" },
-    { "id": "1308", "ime": "Cetingrad", "zupanija": "Karlovačka" },
-    { "id": "1309", "ime": "Draganić", "zupanija": "Karlovačka" },
-    { "id": "1310", "ime": "Duga Resa", "zupanija": "Karlovačka" },
-    { "id": "1311", "ime": "Generalski Stol", "zupanija": "Karlovačka" },
-    { "id": "1312", "ime": "Josipdol", "zupanija": "Karlovačka" },
-    { "id": "1313", "ime": "Karlovac", "zupanija": "Karlovačka" },
-    { "id": "1314", "ime": "Karlovac - Okolica", "zupanija": "Karlovačka" },
-    { "id": "1315", "ime": "Krnjak", "zupanija": "Karlovačka" },
-    { "id": "1316", "ime": "Lasinja", "zupanija": "Karlovačka" },
-    { "id": "1317", "ime": "Netretić", "zupanija": "Karlovačka" },
-    { "id": "1318", "ime": "Ogulin", "zupanija": "Karlovačka" },
-    { "id": "1319", "ime": "Ozalj", "zupanija": "Karlovačka" },
-    { "id": "1320", "ime": "Plaški", "zupanija": "Karlovačka" },
-    { "id": "1321", "ime": "Rakovica", "zupanija": "Karlovačka" },
-    { "id": "1322", "ime": "Ribnik", "zupanija": "Karlovačka" },
-    { "id": "1323", "ime": "Saborsko", "zupanija": "Karlovačka" },
-    { "id": "1324", "ime": "Slunj", "zupanija": "Karlovačka" },
-    { "id": "1325", "ime": "Tounj", "zupanija": "Karlovačka" },
-    { "id": "1326", "ime": "Vojnić", "zupanija": "Karlovačka" },
-    { "id": "1327", "ime": "Žakanje", "zupanija": "Karlovačka" },
-    { "id": "1328", "ime": "Drnje", "zupanija": "Koprivničko-križevačka" },
-    { "id": "1329", "ime": "Đelekovec", "zupanija": "Koprivničko-križevačka" },
-    { "id": "1330", "ime": "Đurđevac", "zupanija": "Koprivničko-križevačka" },
+    {
+        "id": "1253",
+        "ime": "Maksimir",
+        "zupanija": { "ime": "Grad Zagreb", "id": "1153" }
+    },
+    {
+        "id": "1254",
+        "ime": "Novi Zagreb - Istok",
+        "zupanija": { "ime": "Grad Zagreb", "id": "1153" }
+    },
+    {
+        "id": "1255",
+        "ime": "Novi Zagreb - Zapad",
+        "zupanija": { "ime": "Grad Zagreb", "id": "1153" }
+    },
+    {
+        "id": "1256",
+        "ime": "Peščenica - Žitnjak",
+        "zupanija": { "ime": "Grad Zagreb", "id": "1153" }
+    },
+    {
+        "id": "1257",
+        "ime": "Podsljeme",
+        "zupanija": { "ime": "Grad Zagreb", "id": "1153" }
+    },
+    {
+        "id": "1258",
+        "ime": "Podsused - Vrapče",
+        "zupanija": { "ime": "Grad Zagreb", "id": "1153" }
+    },
+    {
+        "id": "1259",
+        "ime": "Sesvete",
+        "zupanija": { "ime": "Grad Zagreb", "id": "1153" }
+    },
+    {
+        "id": "1260",
+        "ime": "Stenjevec",
+        "zupanija": { "ime": "Grad Zagreb", "id": "1153" }
+    },
+    {
+        "id": "1261",
+        "ime": "Trešnjevka - Jug",
+        "zupanija": { "ime": "Grad Zagreb", "id": "1153" }
+    },
+    {
+        "id": "1262",
+        "ime": "Trešnjevka - Sjever",
+        "zupanija": { "ime": "Grad Zagreb", "id": "1153" }
+    },
+    {
+        "id": "1263",
+        "ime": "Trnje",
+        "zupanija": { "ime": "Grad Zagreb", "id": "1153" }
+    },
+    {
+        "id": "1264",
+        "ime": "Zagreb - Okolica",
+        "zupanija": { "ime": "Grad Zagreb", "id": "1153" }
+    },
+    { "id": "1153", "ime": "Grad Zagreb" },
+    {
+        "id": "1306",
+        "ime": "Barilovići",
+        "zupanija": { "ime": "Karlovačka", "id": "1155" }
+    },
+    {
+        "id": "1307",
+        "ime": "Bosiljevo",
+        "zupanija": { "ime": "Karlovačka", "id": "1155" }
+    },
+    {
+        "id": "1308",
+        "ime": "Cetingrad",
+        "zupanija": { "ime": "Karlovačka", "id": "1155" }
+    },
+    {
+        "id": "1309",
+        "ime": "Draganić",
+        "zupanija": { "ime": "Karlovačka", "id": "1155" }
+    },
+    {
+        "id": "1310",
+        "ime": "Duga Resa",
+        "zupanija": { "ime": "Karlovačka", "id": "1155" }
+    },
+    {
+        "id": "1311",
+        "ime": "Generalski Stol",
+        "zupanija": { "ime": "Karlovačka", "id": "1155" }
+    },
+    {
+        "id": "1312",
+        "ime": "Josipdol",
+        "zupanija": { "ime": "Karlovačka", "id": "1155" }
+    },
+    {
+        "id": "1313",
+        "ime": "Karlovac",
+        "zupanija": { "ime": "Karlovačka", "id": "1155" }
+    },
+    {
+        "id": "1314",
+        "ime": "Karlovac - Okolica",
+        "zupanija": { "ime": "Karlovačka", "id": "1155" }
+    },
+    {
+        "id": "1315",
+        "ime": "Krnjak",
+        "zupanija": { "ime": "Karlovačka", "id": "1155" }
+    },
+    {
+        "id": "1316",
+        "ime": "Lasinja",
+        "zupanija": { "ime": "Karlovačka", "id": "1155" }
+    },
+    {
+        "id": "1317",
+        "ime": "Netretić",
+        "zupanija": { "ime": "Karlovačka", "id": "1155" }
+    },
+    {
+        "id": "1318",
+        "ime": "Ogulin",
+        "zupanija": { "ime": "Karlovačka", "id": "1155" }
+    },
+    {
+        "id": "1319",
+        "ime": "Ozalj",
+        "zupanija": { "ime": "Karlovačka", "id": "1155" }
+    },
+    {
+        "id": "1320",
+        "ime": "Plaški",
+        "zupanija": { "ime": "Karlovačka", "id": "1155" }
+    },
+    {
+        "id": "1321",
+        "ime": "Rakovica",
+        "zupanija": { "ime": "Karlovačka", "id": "1155" }
+    },
+    {
+        "id": "1322",
+        "ime": "Ribnik",
+        "zupanija": { "ime": "Karlovačka", "id": "1155" }
+    },
+    {
+        "id": "1323",
+        "ime": "Saborsko",
+        "zupanija": { "ime": "Karlovačka", "id": "1155" }
+    },
+    {
+        "id": "1324",
+        "ime": "Slunj",
+        "zupanija": { "ime": "Karlovačka", "id": "1155" }
+    },
+    {
+        "id": "1325",
+        "ime": "Tounj",
+        "zupanija": { "ime": "Karlovačka", "id": "1155" }
+    },
+    {
+        "id": "1326",
+        "ime": "Vojnić",
+        "zupanija": { "ime": "Karlovačka", "id": "1155" }
+    },
+    {
+        "id": "1327",
+        "ime": "Žakanje",
+        "zupanija": { "ime": "Karlovačka", "id": "1155" }
+    },
+    { "id": "1155", "ime": "Karlovačka" },
+    {
+        "id": "1328",
+        "ime": "Drnje",
+        "zupanija": { "ime": "Koprivničko-križevačka", "id": "1156" }
+    },
+    {
+        "id": "1329",
+        "ime": "Đelekovec",
+        "zupanija": { "ime": "Koprivničko-križevačka", "id": "1156" }
+    },
+    {
+        "id": "1330",
+        "ime": "Đurđevac",
+        "zupanija": { "ime": "Koprivničko-križevačka", "id": "1156" }
+    },
     {
         "id": "1331",
         "ime": "Ferdinandovac",
-        "zupanija": "Koprivničko-križevačka"
+        "zupanija": { "ime": "Koprivničko-križevačka", "id": "1156" }
     },
-    { "id": "1332", "ime": "Gola", "zupanija": "Koprivničko-križevačka" },
+    {
+        "id": "1332",
+        "ime": "Gola",
+        "zupanija": { "ime": "Koprivničko-križevačka", "id": "1156" }
+    },
     {
         "id": "1333",
         "ime": "Gornja Rijeka",
-        "zupanija": "Koprivničko-križevačka"
+        "zupanija": { "ime": "Koprivničko-križevačka", "id": "1156" }
     },
-    { "id": "1334", "ime": "Hlebine", "zupanija": "Koprivničko-križevačka" },
-    { "id": "1335", "ime": "Kalinovac", "zupanija": "Koprivničko-križevačka" },
-    { "id": "1336", "ime": "Kalnik", "zupanija": "Koprivničko-križevačka" },
+    {
+        "id": "1334",
+        "ime": "Hlebine",
+        "zupanija": { "ime": "Koprivničko-križevačka", "id": "1156" }
+    },
+    {
+        "id": "1335",
+        "ime": "Kalinovac",
+        "zupanija": { "ime": "Koprivničko-križevačka", "id": "1156" }
+    },
+    {
+        "id": "1336",
+        "ime": "Kalnik",
+        "zupanija": { "ime": "Koprivničko-križevačka", "id": "1156" }
+    },
     {
         "id": "1337",
         "ime": "Kloštar Podravski",
-        "zupanija": "Koprivničko-križevačka"
+        "zupanija": { "ime": "Koprivničko-križevačka", "id": "1156" }
     },
-    { "id": "1338", "ime": "Koprivnica", "zupanija": "Koprivničko-križevačka" },
+    {
+        "id": "1338",
+        "ime": "Koprivnica",
+        "zupanija": { "ime": "Koprivničko-križevačka", "id": "1156" }
+    },
     {
         "id": "1339",
         "ime": "Koprivnica - Okolica",
-        "zupanija": "Koprivničko-križevačka"
+        "zupanija": { "ime": "Koprivničko-križevačka", "id": "1156" }
     },
     {
         "id": "1340",
         "ime": "Koprivnički Bregi",
-        "zupanija": "Koprivničko-križevačka"
+        "zupanija": { "ime": "Koprivničko-križevačka", "id": "1156" }
     },
     {
         "id": "1341",
         "ime": "Koprivnički Ivanec",
-        "zupanija": "Koprivničko-križevačka"
+        "zupanija": { "ime": "Koprivničko-križevačka", "id": "1156" }
     },
-    { "id": "1342", "ime": "Križevci", "zupanija": "Koprivničko-križevačka" },
-    { "id": "1343", "ime": "Legrad", "zupanija": "Koprivničko-križevačka" },
-    { "id": "1344", "ime": "Molve", "zupanija": "Koprivničko-križevačka" },
+    {
+        "id": "1342",
+        "ime": "Križevci",
+        "zupanija": { "ime": "Koprivničko-križevačka", "id": "1156" }
+    },
+    {
+        "id": "1343",
+        "ime": "Legrad",
+        "zupanija": { "ime": "Koprivničko-križevačka", "id": "1156" }
+    },
+    {
+        "id": "1344",
+        "ime": "Molve",
+        "zupanija": { "ime": "Koprivničko-križevačka", "id": "1156" }
+    },
     {
         "id": "1345",
         "ime": "Novigrad Podravski",
-        "zupanija": "Koprivničko-križevačka"
+        "zupanija": { "ime": "Koprivničko-križevačka", "id": "1156" }
     },
-    { "id": "1346", "ime": "Novo Virje", "zupanija": "Koprivničko-križevačka" },
-    { "id": "1347", "ime": "Peteranec", "zupanija": "Koprivničko-križevačka" },
+    {
+        "id": "1346",
+        "ime": "Novo Virje",
+        "zupanija": { "ime": "Koprivničko-križevačka", "id": "1156" }
+    },
+    {
+        "id": "1347",
+        "ime": "Peteranec",
+        "zupanija": { "ime": "Koprivničko-križevačka", "id": "1156" }
+    },
     {
         "id": "1348",
         "ime": "Podravske Sesvete",
-        "zupanija": "Koprivničko-križevačka"
+        "zupanija": { "ime": "Koprivničko-križevačka", "id": "1156" }
     },
-    { "id": "1349", "ime": "Rasinja", "zupanija": "Koprivničko-križevačka" },
-    { "id": "1350", "ime": "Sokolovac", "zupanija": "Koprivničko-križevačka" },
+    {
+        "id": "1349",
+        "ime": "Rasinja",
+        "zupanija": { "ime": "Koprivničko-križevačka", "id": "1156" }
+    },
+    {
+        "id": "1350",
+        "ime": "Sokolovac",
+        "zupanija": { "ime": "Koprivničko-križevačka", "id": "1156" }
+    },
     {
         "id": "1351",
         "ime": "Sveti Ivan Žabno",
-        "zupanija": "Koprivničko-križevačka"
+        "zupanija": { "ime": "Koprivničko-križevačka", "id": "1156" }
     },
     {
         "id": "1352",
         "ime": "Sveti Petar Orehovec",
-        "zupanija": "Koprivničko-križevačka"
+        "zupanija": { "ime": "Koprivničko-križevačka", "id": "1156" }
     },
-    { "id": "1353", "ime": "Virje", "zupanija": "Koprivničko-križevačka" },
-    { "id": "1354", "ime": "Bedekovčina", "zupanija": "Krapinsko-zagorska" },
-    { "id": "1355", "ime": "Budinščina", "zupanija": "Krapinsko-zagorska" },
-    { "id": "1356", "ime": "Desinić", "zupanija": "Krapinsko-zagorska" },
-    { "id": "1357", "ime": "Donja Stubica", "zupanija": "Krapinsko-zagorska" },
-    { "id": "1358", "ime": "Đurmanec", "zupanija": "Krapinsko-zagorska" },
-    { "id": "1359", "ime": "Gornja Stubica", "zupanija": "Krapinsko-zagorska" },
-    { "id": "1360", "ime": "Hrašćina", "zupanija": "Krapinsko-zagorska" },
-    { "id": "1361", "ime": "Hum Na Sutli", "zupanija": "Krapinsko-zagorska" },
-    { "id": "1362", "ime": "Jesenje", "zupanija": "Krapinsko-zagorska" },
-    { "id": "1363", "ime": "Klanjec", "zupanija": "Krapinsko-zagorska" },
-    { "id": "1364", "ime": "Konjščina", "zupanija": "Krapinsko-zagorska" },
+    {
+        "id": "1353",
+        "ime": "Virje",
+        "zupanija": { "ime": "Koprivničko-križevačka", "id": "1156" }
+    },
+    { "id": "1156", "ime": "Koprivničko-križevačka" },
+    {
+        "id": "1354",
+        "ime": "Bedekovčina",
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
+    },
+    {
+        "id": "1355",
+        "ime": "Budinščina",
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
+    },
+    {
+        "id": "1356",
+        "ime": "Desinić",
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
+    },
+    {
+        "id": "1357",
+        "ime": "Donja Stubica",
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
+    },
+    {
+        "id": "1358",
+        "ime": "Đurmanec",
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
+    },
+    {
+        "id": "1359",
+        "ime": "Gornja Stubica",
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
+    },
+    {
+        "id": "1360",
+        "ime": "Hrašćina",
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
+    },
+    {
+        "id": "1361",
+        "ime": "Hum Na Sutli",
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
+    },
+    {
+        "id": "1362",
+        "ime": "Jesenje",
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
+    },
+    {
+        "id": "1363",
+        "ime": "Klanjec",
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
+    },
+    {
+        "id": "1364",
+        "ime": "Konjščina",
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
+    },
     {
         "id": "1365",
         "ime": "Kraljevec Na Sutli",
-        "zupanija": "Krapinsko-zagorska"
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
     },
-    { "id": "1366", "ime": "Krapina", "zupanija": "Krapinsko-zagorska" },
+    {
+        "id": "1366",
+        "ime": "Krapina",
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
+    },
     {
         "id": "1367",
         "ime": "Krapina - Okolica",
-        "zupanija": "Krapinsko-zagorska"
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
     },
     {
         "id": "1368",
         "ime": "Krapinske Toplice",
-        "zupanija": "Krapinsko-zagorska"
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
     },
-    { "id": "1369", "ime": "Kumrovec", "zupanija": "Krapinsko-zagorska" },
-    { "id": "1370", "ime": "Lobor", "zupanija": "Krapinsko-zagorska" },
-    { "id": "1371", "ime": "Mače", "zupanija": "Krapinsko-zagorska" },
+    {
+        "id": "1369",
+        "ime": "Kumrovec",
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
+    },
+    {
+        "id": "1370",
+        "ime": "Lobor",
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
+    },
+    {
+        "id": "1371",
+        "ime": "Mače",
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
+    },
     {
         "id": "1372",
         "ime": "Marija Bistrica",
-        "zupanija": "Krapinsko-zagorska"
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
     },
-    { "id": "1373", "ime": "Mihovljan", "zupanija": "Krapinsko-zagorska" },
-    { "id": "1374", "ime": "Novi Golubovec", "zupanija": "Krapinsko-zagorska" },
-    { "id": "1375", "ime": "Oroslavje", "zupanija": "Krapinsko-zagorska" },
-    { "id": "1376", "ime": "Petrovsko", "zupanija": "Krapinsko-zagorska" },
-    { "id": "1377", "ime": "Pregrada", "zupanija": "Krapinsko-zagorska" },
-    { "id": "1378", "ime": "Radoboj", "zupanija": "Krapinsko-zagorska" },
+    {
+        "id": "1373",
+        "ime": "Mihovljan",
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
+    },
+    {
+        "id": "1374",
+        "ime": "Novi Golubovec",
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
+    },
+    {
+        "id": "1375",
+        "ime": "Oroslavje",
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
+    },
+    {
+        "id": "1376",
+        "ime": "Petrovsko",
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
+    },
+    {
+        "id": "1377",
+        "ime": "Pregrada",
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
+    },
+    {
+        "id": "1378",
+        "ime": "Radoboj",
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
+    },
     {
         "id": "1379",
         "ime": "Stubičke Toplice",
-        "zupanija": "Krapinsko-zagorska"
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
     },
     {
         "id": "1380",
         "ime": "Sveti Križ Začretje",
-        "zupanija": "Krapinsko-zagorska"
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
     },
-    { "id": "1381", "ime": "Tuhelj", "zupanija": "Krapinsko-zagorska" },
+    {
+        "id": "1381",
+        "ime": "Tuhelj",
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
+    },
     {
         "id": "1382",
         "ime": "Veliko Trgovišće",
-        "zupanija": "Krapinsko-zagorska"
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
     },
-    { "id": "1383", "ime": "Zabok", "zupanija": "Krapinsko-zagorska" },
-    { "id": "1384", "ime": "Zagorska Sela", "zupanija": "Krapinsko-zagorska" },
-    { "id": "1385", "ime": "Zlatar", "zupanija": "Krapinsko-zagorska" },
+    {
+        "id": "1383",
+        "ime": "Zabok",
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
+    },
+    {
+        "id": "1384",
+        "ime": "Zagorska Sela",
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
+    },
+    {
+        "id": "1385",
+        "ime": "Zlatar",
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
+    },
     {
         "id": "1386",
         "ime": "Zlatar-Bistrica",
-        "zupanija": "Krapinsko-zagorska"
+        "zupanija": { "ime": "Krapinsko-zagorska", "id": "1157" }
     },
-    { "id": "1387", "ime": "Brinje", "zupanija": "Ličko-senjska" },
-    { "id": "1388", "ime": "Donji Lapac", "zupanija": "Ličko-senjska" },
-    { "id": "1389", "ime": "Gospić", "zupanija": "Ličko-senjska" },
-    { "id": "1390", "ime": "Gospić - Okolica", "zupanija": "Ličko-senjska" },
-    { "id": "1391", "ime": "Karlobag", "zupanija": "Ličko-senjska" },
-    { "id": "1392", "ime": "Lovinac", "zupanija": "Ličko-senjska" },
-    { "id": "1393", "ime": "Novalja", "zupanija": "Ličko-senjska" },
-    { "id": "1394", "ime": "Otočac", "zupanija": "Ličko-senjska" },
-    { "id": "1395", "ime": "Perušić", "zupanija": "Ličko-senjska" },
-    { "id": "1396", "ime": "Plitvička Jezera", "zupanija": "Ličko-senjska" },
-    { "id": "1397", "ime": "Senj", "zupanija": "Ličko-senjska" },
-    { "id": "1398", "ime": "Udbina", "zupanija": "Ličko-senjska" },
-    { "id": "1399", "ime": "Vrhovine", "zupanija": "Ličko-senjska" },
-    { "id": "1400", "ime": "Belica", "zupanija": "Međimurska" },
-    { "id": "1401", "ime": "Čakovec", "zupanija": "Međimurska" },
-    { "id": "1402", "ime": "Čakovec - Okolica", "zupanija": "Međimurska" },
-    { "id": "1403", "ime": "Dekanovec", "zupanija": "Međimurska" },
-    { "id": "1404", "ime": "Domašinec", "zupanija": "Međimurska" },
-    { "id": "1405", "ime": "Donja Dubrava", "zupanija": "Međimurska" },
-    { "id": "1406", "ime": "Donji Kraljevec", "zupanija": "Međimurska" },
-    { "id": "1407", "ime": "Donji Vidovec", "zupanija": "Međimurska" },
-    { "id": "1408", "ime": "Goričan", "zupanija": "Međimurska" },
-    { "id": "1409", "ime": "Gornji Mihaljevec", "zupanija": "Međimurska" },
-    { "id": "1410", "ime": "Kotoriba", "zupanija": "Međimurska" },
-    { "id": "1411", "ime": "Mala Subotica", "zupanija": "Međimurska" },
-    { "id": "1412", "ime": "Mursko Središće", "zupanija": "Međimurska" },
-    { "id": "1413", "ime": "Nedelišće", "zupanija": "Međimurska" },
-    { "id": "1414", "ime": "Orehovica", "zupanija": "Međimurska" },
-    { "id": "1415", "ime": "Podturen", "zupanija": "Međimurska" },
-    { "id": "1416", "ime": "Prelog", "zupanija": "Međimurska" },
-    { "id": "1417", "ime": "Pribislavec", "zupanija": "Međimurska" },
-    { "id": "1418", "ime": "Selnica", "zupanija": "Međimurska" },
-    { "id": "1419", "ime": "Strahoninec", "zupanija": "Međimurska" },
-    { "id": "1420", "ime": "Sveta Marija", "zupanija": "Međimurska" },
-    { "id": "1421", "ime": "Sveti Juraj Na Bregu", "zupanija": "Međimurska" },
-    { "id": "1422", "ime": "Sveti Martin Na Muri", "zupanija": "Međimurska" },
-    { "id": "1423", "ime": "Šenkovec", "zupanija": "Međimurska" },
-    { "id": "1424", "ime": "Štrigova", "zupanija": "Međimurska" },
-    { "id": "1425", "ime": "Vratišinec", "zupanija": "Međimurska" },
-    { "id": "1426", "ime": "Antunovac", "zupanija": "Osječko-baranjska" },
-    { "id": "1427", "ime": "Beli Manastir", "zupanija": "Osječko-baranjska" },
-    { "id": "1428", "ime": "Belišće", "zupanija": "Osječko-baranjska" },
-    { "id": "1429", "ime": "Bilje", "zupanija": "Osječko-baranjska" },
-    { "id": "1430", "ime": "Bizovac", "zupanija": "Osječko-baranjska" },
-    { "id": "1431", "ime": "Čeminac", "zupanija": "Osječko-baranjska" },
-    { "id": "1432", "ime": "Čepin", "zupanija": "Osječko-baranjska" },
-    { "id": "1433", "ime": "Darda", "zupanija": "Osječko-baranjska" },
-    { "id": "1434", "ime": "Donja Motičina", "zupanija": "Osječko-baranjska" },
-    { "id": "1435", "ime": "Donji Miholjac", "zupanija": "Osječko-baranjska" },
-    { "id": "1436", "ime": "Draž", "zupanija": "Osječko-baranjska" },
-    { "id": "1437", "ime": "Drenje", "zupanija": "Osječko-baranjska" },
-    { "id": "1438", "ime": "Đakovo", "zupanija": "Osječko-baranjska" },
-    { "id": "1439", "ime": "Đurđenovac", "zupanija": "Osječko-baranjska" },
-    { "id": "1440", "ime": "Erdut", "zupanija": "Osječko-baranjska" },
-    { "id": "1441", "ime": "Ernestinovo", "zupanija": "Osječko-baranjska" },
-    { "id": "1442", "ime": "Feričanci", "zupanija": "Osječko-baranjska" },
-    { "id": "1443", "ime": "Gorjani", "zupanija": "Osječko-baranjska" },
-    { "id": "1444", "ime": "Jagodnjak", "zupanija": "Osječko-baranjska" },
+    { "id": "1157", "ime": "Krapinsko-zagorska" },
+    {
+        "id": "1387",
+        "ime": "Brinje",
+        "zupanija": { "ime": "Ličko-senjska", "id": "1158" }
+    },
+    {
+        "id": "1388",
+        "ime": "Donji Lapac",
+        "zupanija": { "ime": "Ličko-senjska", "id": "1158" }
+    },
+    {
+        "id": "1389",
+        "ime": "Gospić",
+        "zupanija": { "ime": "Ličko-senjska", "id": "1158" }
+    },
+    {
+        "id": "1390",
+        "ime": "Gospić - Okolica",
+        "zupanija": { "ime": "Ličko-senjska", "id": "1158" }
+    },
+    {
+        "id": "1391",
+        "ime": "Karlobag",
+        "zupanija": { "ime": "Ličko-senjska", "id": "1158" }
+    },
+    {
+        "id": "1392",
+        "ime": "Lovinac",
+        "zupanija": { "ime": "Ličko-senjska", "id": "1158" }
+    },
+    {
+        "id": "1393",
+        "ime": "Novalja",
+        "zupanija": { "ime": "Ličko-senjska", "id": "1158" }
+    },
+    {
+        "id": "1394",
+        "ime": "Otočac",
+        "zupanija": { "ime": "Ličko-senjska", "id": "1158" }
+    },
+    {
+        "id": "1395",
+        "ime": "Perušić",
+        "zupanija": { "ime": "Ličko-senjska", "id": "1158" }
+    },
+    {
+        "id": "1396",
+        "ime": "Plitvička Jezera",
+        "zupanija": { "ime": "Ličko-senjska", "id": "1158" }
+    },
+    {
+        "id": "1397",
+        "ime": "Senj",
+        "zupanija": { "ime": "Ličko-senjska", "id": "1158" }
+    },
+    {
+        "id": "1398",
+        "ime": "Udbina",
+        "zupanija": { "ime": "Ličko-senjska", "id": "1158" }
+    },
+    {
+        "id": "1399",
+        "ime": "Vrhovine",
+        "zupanija": { "ime": "Ličko-senjska", "id": "1158" }
+    },
+    { "id": "1158", "ime": "Ličko-senjska" },
+    {
+        "id": "1400",
+        "ime": "Belica",
+        "zupanija": { "ime": "Međimurska", "id": "1159" }
+    },
+    {
+        "id": "1401",
+        "ime": "Čakovec",
+        "zupanija": { "ime": "Međimurska", "id": "1159" }
+    },
+    {
+        "id": "1402",
+        "ime": "Čakovec - Okolica",
+        "zupanija": { "ime": "Međimurska", "id": "1159" }
+    },
+    {
+        "id": "1403",
+        "ime": "Dekanovec",
+        "zupanija": { "ime": "Međimurska", "id": "1159" }
+    },
+    {
+        "id": "1404",
+        "ime": "Domašinec",
+        "zupanija": { "ime": "Međimurska", "id": "1159" }
+    },
+    {
+        "id": "1405",
+        "ime": "Donja Dubrava",
+        "zupanija": { "ime": "Međimurska", "id": "1159" }
+    },
+    {
+        "id": "1406",
+        "ime": "Donji Kraljevec",
+        "zupanija": { "ime": "Međimurska", "id": "1159" }
+    },
+    {
+        "id": "1407",
+        "ime": "Donji Vidovec",
+        "zupanija": { "ime": "Međimurska", "id": "1159" }
+    },
+    {
+        "id": "1408",
+        "ime": "Goričan",
+        "zupanija": { "ime": "Međimurska", "id": "1159" }
+    },
+    {
+        "id": "1409",
+        "ime": "Gornji Mihaljevec",
+        "zupanija": { "ime": "Međimurska", "id": "1159" }
+    },
+    {
+        "id": "1410",
+        "ime": "Kotoriba",
+        "zupanija": { "ime": "Međimurska", "id": "1159" }
+    },
+    {
+        "id": "1411",
+        "ime": "Mala Subotica",
+        "zupanija": { "ime": "Međimurska", "id": "1159" }
+    },
+    {
+        "id": "1412",
+        "ime": "Mursko Središće",
+        "zupanija": { "ime": "Međimurska", "id": "1159" }
+    },
+    {
+        "id": "1413",
+        "ime": "Nedelišće",
+        "zupanija": { "ime": "Međimurska", "id": "1159" }
+    },
+    {
+        "id": "1414",
+        "ime": "Orehovica",
+        "zupanija": { "ime": "Međimurska", "id": "1159" }
+    },
+    {
+        "id": "1415",
+        "ime": "Podturen",
+        "zupanija": { "ime": "Međimurska", "id": "1159" }
+    },
+    {
+        "id": "1416",
+        "ime": "Prelog",
+        "zupanija": { "ime": "Međimurska", "id": "1159" }
+    },
+    {
+        "id": "1417",
+        "ime": "Pribislavec",
+        "zupanija": { "ime": "Međimurska", "id": "1159" }
+    },
+    {
+        "id": "1418",
+        "ime": "Selnica",
+        "zupanija": { "ime": "Međimurska", "id": "1159" }
+    },
+    {
+        "id": "1419",
+        "ime": "Strahoninec",
+        "zupanija": { "ime": "Međimurska", "id": "1159" }
+    },
+    {
+        "id": "1420",
+        "ime": "Sveta Marija",
+        "zupanija": { "ime": "Međimurska", "id": "1159" }
+    },
+    {
+        "id": "1421",
+        "ime": "Sveti Juraj Na Bregu",
+        "zupanija": { "ime": "Međimurska", "id": "1159" }
+    },
+    {
+        "id": "1422",
+        "ime": "Sveti Martin Na Muri",
+        "zupanija": { "ime": "Međimurska", "id": "1159" }
+    },
+    {
+        "id": "1423",
+        "ime": "Šenkovec",
+        "zupanija": { "ime": "Međimurska", "id": "1159" }
+    },
+    {
+        "id": "1424",
+        "ime": "Štrigova",
+        "zupanija": { "ime": "Međimurska", "id": "1159" }
+    },
+    {
+        "id": "1425",
+        "ime": "Vratišinec",
+        "zupanija": { "ime": "Međimurska", "id": "1159" }
+    },
+    { "id": "1159", "ime": "Međimurska" },
+    {
+        "id": "1426",
+        "ime": "Antunovac",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1427",
+        "ime": "Beli Manastir",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1428",
+        "ime": "Belišće",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1429",
+        "ime": "Bilje",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1430",
+        "ime": "Bizovac",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1431",
+        "ime": "Čeminac",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1432",
+        "ime": "Čepin",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1433",
+        "ime": "Darda",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1434",
+        "ime": "Donja Motičina",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1435",
+        "ime": "Donji Miholjac",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1436",
+        "ime": "Draž",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1437",
+        "ime": "Drenje",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1438",
+        "ime": "Đakovo",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1439",
+        "ime": "Đurđenovac",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1440",
+        "ime": "Erdut",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1441",
+        "ime": "Ernestinovo",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1442",
+        "ime": "Feričanci",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1443",
+        "ime": "Gorjani",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1444",
+        "ime": "Jagodnjak",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
     {
         "id": "1445",
         "ime": "Kneževi Vinogradi",
-        "zupanija": "Osječko-baranjska"
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
     },
-    { "id": "1446", "ime": "Koška", "zupanija": "Osječko-baranjska" },
-    { "id": "1447", "ime": "Levanjska Varoš", "zupanija": "Osječko-baranjska" },
-    { "id": "1448", "ime": "Magadenovac", "zupanija": "Osječko-baranjska" },
-    { "id": "1449", "ime": "Marijanci", "zupanija": "Osječko-baranjska" },
-    { "id": "1450", "ime": "Našice", "zupanija": "Osječko-baranjska" },
-    { "id": "1451", "ime": "Osijek", "zupanija": "Osječko-baranjska" },
+    {
+        "id": "1446",
+        "ime": "Koška",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1447",
+        "ime": "Levanjska Varoš",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1448",
+        "ime": "Magadenovac",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1449",
+        "ime": "Marijanci",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1450",
+        "ime": "Našice",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1451",
+        "ime": "Osijek",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
     {
         "id": "1452",
         "ime": "Osijek - Okolica",
-        "zupanija": "Osječko-baranjska"
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
     },
-    { "id": "1453", "ime": "Petlovac", "zupanija": "Osječko-baranjska" },
-    { "id": "1454", "ime": "Petrijevci", "zupanija": "Osječko-baranjska" },
-    { "id": "1455", "ime": "Podgorač", "zupanija": "Osječko-baranjska" },
+    {
+        "id": "1453",
+        "ime": "Petlovac",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1454",
+        "ime": "Petrijevci",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1455",
+        "ime": "Podgorač",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
     {
         "id": "1456",
         "ime": "Podravska Moslavina",
-        "zupanija": "Osječko-baranjska"
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
     },
-    { "id": "1457", "ime": "Popovac", "zupanija": "Osječko-baranjska" },
-    { "id": "1458", "ime": "Punitovci", "zupanija": "Osječko-baranjska" },
+    {
+        "id": "1457",
+        "ime": "Popovac",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1458",
+        "ime": "Punitovci",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
     {
         "id": "1459",
         "ime": "Satnica Đakovačka",
-        "zupanija": "Osječko-baranjska"
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
     },
-    { "id": "1460", "ime": "Semeljci", "zupanija": "Osječko-baranjska" },
-    { "id": "1461", "ime": "Strizivojna", "zupanija": "Osječko-baranjska" },
-    { "id": "1462", "ime": "Šodolovci", "zupanija": "Osječko-baranjska" },
-    { "id": "1463", "ime": "Trnava", "zupanija": "Osječko-baranjska" },
-    { "id": "1464", "ime": "Valpovo", "zupanija": "Osječko-baranjska" },
-    { "id": "1465", "ime": "Viljevo", "zupanija": "Osječko-baranjska" },
-    { "id": "1466", "ime": "Viškovci", "zupanija": "Osječko-baranjska" },
-    { "id": "1467", "ime": "Vladislavci", "zupanija": "Osječko-baranjska" },
-    { "id": "1468", "ime": "Vuka", "zupanija": "Osječko-baranjska" },
-    { "id": "1469", "ime": "Brestovac", "zupanija": "Požeško-slavonska" },
-    { "id": "1470", "ime": "Čaglin", "zupanija": "Požeško-slavonska" },
-    { "id": "1471", "ime": "Jakšić", "zupanija": "Požeško-slavonska" },
-    { "id": "1472", "ime": "Kaptol", "zupanija": "Požeško-slavonska" },
-    { "id": "1473", "ime": "Kutjevo", "zupanija": "Požeško-slavonska" },
-    { "id": "1474", "ime": "Lipik", "zupanija": "Požeško-slavonska" },
-    { "id": "1475", "ime": "Pakrac", "zupanija": "Požeško-slavonska" },
-    { "id": "1476", "ime": "Pleternica", "zupanija": "Požeško-slavonska" },
-    { "id": "1477", "ime": "Požega", "zupanija": "Požeško-slavonska" },
+    {
+        "id": "1460",
+        "ime": "Semeljci",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1461",
+        "ime": "Strizivojna",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1462",
+        "ime": "Šodolovci",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1463",
+        "ime": "Trnava",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1464",
+        "ime": "Valpovo",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1465",
+        "ime": "Viljevo",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1466",
+        "ime": "Viškovci",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1467",
+        "ime": "Vladislavci",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    {
+        "id": "1468",
+        "ime": "Vuka",
+        "zupanija": { "ime": "Osječko-baranjska", "id": "1160" }
+    },
+    { "id": "1160", "ime": "Osječko-baranjska" },
+    {
+        "id": "1469",
+        "ime": "Brestovac",
+        "zupanija": { "ime": "Požeško-slavonska", "id": "1161" }
+    },
+    {
+        "id": "1470",
+        "ime": "Čaglin",
+        "zupanija": { "ime": "Požeško-slavonska", "id": "1161" }
+    },
+    {
+        "id": "1471",
+        "ime": "Jakšić",
+        "zupanija": { "ime": "Požeško-slavonska", "id": "1161" }
+    },
+    {
+        "id": "1472",
+        "ime": "Kaptol",
+        "zupanija": { "ime": "Požeško-slavonska", "id": "1161" }
+    },
+    {
+        "id": "1473",
+        "ime": "Kutjevo",
+        "zupanija": { "ime": "Požeško-slavonska", "id": "1161" }
+    },
+    {
+        "id": "1474",
+        "ime": "Lipik",
+        "zupanija": { "ime": "Požeško-slavonska", "id": "1161" }
+    },
+    {
+        "id": "1475",
+        "ime": "Pakrac",
+        "zupanija": { "ime": "Požeško-slavonska", "id": "1161" }
+    },
+    {
+        "id": "1476",
+        "ime": "Pleternica",
+        "zupanija": { "ime": "Požeško-slavonska", "id": "1161" }
+    },
+    {
+        "id": "1477",
+        "ime": "Požega",
+        "zupanija": { "ime": "Požeško-slavonska", "id": "1161" }
+    },
     {
         "id": "1478",
         "ime": "Požega - Okolica",
-        "zupanija": "Požeško-slavonska"
+        "zupanija": { "ime": "Požeško-slavonska", "id": "1161" }
     },
-    { "id": "1479", "ime": "Velika", "zupanija": "Požeško-slavonska" },
-    { "id": "1480", "ime": "Bakar", "zupanija": "Primorsko-goranska" },
-    { "id": "1481", "ime": "Baška", "zupanija": "Primorsko-goranska" },
-    { "id": "1482", "ime": "Brod Moravice", "zupanija": "Primorsko-goranska" },
-    { "id": "1483", "ime": "Cres", "zupanija": "Primorsko-goranska" },
-    { "id": "1484", "ime": "Crikvenica", "zupanija": "Primorsko-goranska" },
-    { "id": "1485", "ime": "Čabar", "zupanija": "Primorsko-goranska" },
-    { "id": "1486", "ime": "Čavle", "zupanija": "Primorsko-goranska" },
-    { "id": "1487", "ime": "Delnice", "zupanija": "Primorsko-goranska" },
-    { "id": "1488", "ime": "Dobrinj", "zupanija": "Primorsko-goranska" },
-    { "id": "1489", "ime": "Fužine", "zupanija": "Primorsko-goranska" },
-    { "id": "1490", "ime": "Jelenje", "zupanija": "Primorsko-goranska" },
-    { "id": "1491", "ime": "Kastav", "zupanija": "Primorsko-goranska" },
-    { "id": "1493", "ime": "Klana", "zupanija": "Primorsko-goranska" },
-    { "id": "1494", "ime": "Kostrena", "zupanija": "Primorsko-goranska" },
-    { "id": "1495", "ime": "Kraljevica", "zupanija": "Primorsko-goranska" },
-    { "id": "1496", "ime": "Krk", "zupanija": "Primorsko-goranska" },
-    { "id": "1497", "ime": "Lokve", "zupanija": "Primorsko-goranska" },
-    { "id": "1498", "ime": "Lovran", "zupanija": "Primorsko-goranska" },
-    { "id": "1499", "ime": "Mali Lošinj", "zupanija": "Primorsko-goranska" },
+    {
+        "id": "1479",
+        "ime": "Velika",
+        "zupanija": { "ime": "Požeško-slavonska", "id": "1161" }
+    },
+    { "id": "1161", "ime": "Požeško-slavonska" },
+    {
+        "id": "1480",
+        "ime": "Bakar",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
+    {
+        "id": "1481",
+        "ime": "Baška",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
+    {
+        "id": "1482",
+        "ime": "Brod Moravice",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
+    {
+        "id": "1483",
+        "ime": "Cres",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
+    {
+        "id": "1484",
+        "ime": "Crikvenica",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
+    {
+        "id": "1485",
+        "ime": "Čabar",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
+    {
+        "id": "1486",
+        "ime": "Čavle",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
+    {
+        "id": "1487",
+        "ime": "Delnice",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
+    {
+        "id": "1488",
+        "ime": "Dobrinj",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
+    {
+        "id": "1489",
+        "ime": "Fužine",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
+    {
+        "id": "1490",
+        "ime": "Jelenje",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
+    {
+        "id": "1491",
+        "ime": "Kastav",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
+    {
+        "id": "1493",
+        "ime": "Klana",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
+    {
+        "id": "1494",
+        "ime": "Kostrena",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
+    {
+        "id": "1495",
+        "ime": "Kraljevica",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
+    {
+        "id": "1496",
+        "ime": "Krk",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
+    {
+        "id": "1497",
+        "ime": "Lokve",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
+    {
+        "id": "1498",
+        "ime": "Lovran",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
+    {
+        "id": "1499",
+        "ime": "Mali Lošinj",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
     {
         "id": "1500",
         "ime": "Malinska-Dubašnica",
-        "zupanija": "Primorsko-goranska"
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
     },
-    { "id": "1501", "ime": "Matulji", "zupanija": "Primorsko-goranska" },
+    {
+        "id": "1501",
+        "ime": "Matulji",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
     {
         "id": "1502",
         "ime": "Mošćenička Draga",
-        "zupanija": "Primorsko-goranska"
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
     },
-    { "id": "1503", "ime": "Mrkopalj", "zupanija": "Primorsko-goranska" },
+    {
+        "id": "1503",
+        "ime": "Mrkopalj",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
     {
         "id": "1504",
         "ime": "Novi Vinodolski",
-        "zupanija": "Primorsko-goranska"
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
     },
-    { "id": "1505", "ime": "Omišalj", "zupanija": "Primorsko-goranska" },
-    { "id": "1506", "ime": "Opatija", "zupanija": "Primorsko-goranska" },
+    {
+        "id": "1505",
+        "ime": "Omišalj",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
+    {
+        "id": "1506",
+        "ime": "Opatija",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
     {
         "id": "1507",
         "ime": "Opatija - Okolica",
-        "zupanija": "Primorsko-goranska"
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
     },
-    { "id": "1508", "ime": "Punat", "zupanija": "Primorsko-goranska" },
-    { "id": "1509", "ime": "Rab", "zupanija": "Primorsko-goranska" },
-    { "id": "1510", "ime": "Ravna Gora", "zupanija": "Primorsko-goranska" },
-    { "id": "1511", "ime": "Rijeka", "zupanija": "Primorsko-goranska" },
-    { "id": "1513", "ime": "Skrad", "zupanija": "Primorsko-goranska" },
+    {
+        "id": "1508",
+        "ime": "Punat",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
+    {
+        "id": "1509",
+        "ime": "Rab",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
+    {
+        "id": "1510",
+        "ime": "Ravna Gora",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
+    {
+        "id": "1511",
+        "ime": "Rijeka",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
+    {
+        "id": "1513",
+        "ime": "Skrad",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
     {
         "id": "1514",
         "ime": "Vinodolska Općina",
-        "zupanija": "Primorsko-goranska"
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
     },
-    { "id": "1515", "ime": "Viškovo", "zupanija": "Primorsko-goranska" },
-    { "id": "1516", "ime": "Vrbnik", "zupanija": "Primorsko-goranska" },
-    { "id": "1517", "ime": "Vrbovsko", "zupanija": "Primorsko-goranska" },
+    {
+        "id": "1515",
+        "ime": "Viškovo",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
+    {
+        "id": "1516",
+        "ime": "Vrbnik",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
+    {
+        "id": "1517",
+        "ime": "Vrbovsko",
+        "zupanija": { "ime": "Primorsko-goranska", "id": "1162" }
+    },
+    { "id": "1162", "ime": "Primorsko-goranska" },
     {
         "id": "1518",
         "ime": "Donji Kukuruzari",
-        "zupanija": "Sisačko-moslavačka"
+        "zupanija": { "ime": "Sisačko-moslavačka", "id": "1163" }
     },
-    { "id": "1519", "ime": "Dvor", "zupanija": "Sisačko-moslavačka" },
-    { "id": "1520", "ime": "Glina", "zupanija": "Sisačko-moslavačka" },
-    { "id": "1521", "ime": "Gvozd", "zupanija": "Sisačko-moslavačka" },
+    {
+        "id": "1519",
+        "ime": "Dvor",
+        "zupanija": { "ime": "Sisačko-moslavačka", "id": "1163" }
+    },
+    {
+        "id": "1520",
+        "ime": "Glina",
+        "zupanija": { "ime": "Sisačko-moslavačka", "id": "1163" }
+    },
+    {
+        "id": "1521",
+        "ime": "Gvozd",
+        "zupanija": { "ime": "Sisačko-moslavačka", "id": "1163" }
+    },
     {
         "id": "1522",
         "ime": "Hrvatska Dubica",
-        "zupanija": "Sisačko-moslavačka"
+        "zupanija": { "ime": "Sisačko-moslavačka", "id": "1163" }
     },
     {
         "id": "1523",
         "ime": "Hrvatska Kostajnica",
-        "zupanija": "Sisačko-moslavačka"
+        "zupanija": { "ime": "Sisačko-moslavačka", "id": "1163" }
     },
-    { "id": "1524", "ime": "Jasenovac", "zupanija": "Sisačko-moslavačka" },
-    { "id": "1525", "ime": "Kutina", "zupanija": "Sisačko-moslavačka" },
-    { "id": "1526", "ime": "Lekenik", "zupanija": "Sisačko-moslavačka" },
-    { "id": "1527", "ime": "Lipovljani", "zupanija": "Sisačko-moslavačka" },
-    { "id": "1528", "ime": "Majur", "zupanija": "Sisačko-moslavačka" },
-    { "id": "1529", "ime": "Martinska Ves", "zupanija": "Sisačko-moslavačka" },
-    { "id": "1530", "ime": "Novska", "zupanija": "Sisačko-moslavačka" },
-    { "id": "1531", "ime": "Petrinja", "zupanija": "Sisačko-moslavačka" },
-    { "id": "1532", "ime": "Popovača", "zupanija": "Sisačko-moslavačka" },
-    { "id": "1533", "ime": "Sisak", "zupanija": "Sisačko-moslavačka" },
+    {
+        "id": "1524",
+        "ime": "Jasenovac",
+        "zupanija": { "ime": "Sisačko-moslavačka", "id": "1163" }
+    },
+    {
+        "id": "1525",
+        "ime": "Kutina",
+        "zupanija": { "ime": "Sisačko-moslavačka", "id": "1163" }
+    },
+    {
+        "id": "1526",
+        "ime": "Lekenik",
+        "zupanija": { "ime": "Sisačko-moslavačka", "id": "1163" }
+    },
+    {
+        "id": "1527",
+        "ime": "Lipovljani",
+        "zupanija": { "ime": "Sisačko-moslavačka", "id": "1163" }
+    },
+    {
+        "id": "1528",
+        "ime": "Majur",
+        "zupanija": { "ime": "Sisačko-moslavačka", "id": "1163" }
+    },
+    {
+        "id": "1529",
+        "ime": "Martinska Ves",
+        "zupanija": { "ime": "Sisačko-moslavačka", "id": "1163" }
+    },
+    {
+        "id": "1530",
+        "ime": "Novska",
+        "zupanija": { "ime": "Sisačko-moslavačka", "id": "1163" }
+    },
+    {
+        "id": "1531",
+        "ime": "Petrinja",
+        "zupanija": { "ime": "Sisačko-moslavačka", "id": "1163" }
+    },
+    {
+        "id": "1532",
+        "ime": "Popovača",
+        "zupanija": { "ime": "Sisačko-moslavačka", "id": "1163" }
+    },
+    {
+        "id": "1533",
+        "ime": "Sisak",
+        "zupanija": { "ime": "Sisačko-moslavačka", "id": "1163" }
+    },
     {
         "id": "1534",
         "ime": "Sisak - Okolica",
-        "zupanija": "Sisačko-moslavačka"
+        "zupanija": { "ime": "Sisačko-moslavačka", "id": "1163" }
     },
-    { "id": "1535", "ime": "Sunja", "zupanija": "Sisačko-moslavačka" },
-    { "id": "1536", "ime": "Topusko", "zupanija": "Sisačko-moslavačka" },
-    { "id": "1537", "ime": "Velika Ludina", "zupanija": "Sisačko-moslavačka" },
-    { "id": "1538", "ime": "Baška Voda", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1539", "ime": "Bol", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1540", "ime": "Brela", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1541", "ime": "Cista Provo", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1542", "ime": "Dicmo", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1543", "ime": "Dugi Rat", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1544", "ime": "Dugopolje", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1545", "ime": "Gradac", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1546", "ime": "Hrvace", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1547", "ime": "Hvar", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1548", "ime": "Imotski", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1549", "ime": "Jelsa", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1550", "ime": "Kaštela", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1551", "ime": "Klis", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1552", "ime": "Komiža", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1553", "ime": "Lećevica", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1554", "ime": "Lokvičići", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1555", "ime": "Lovreć", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1556", "ime": "Makarska", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1557", "ime": "Marina", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1558", "ime": "Milna", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1559", "ime": "Muć", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1560", "ime": "Nerežišća", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1561", "ime": "Okrug", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1562", "ime": "Omiš", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1563", "ime": "Otok", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1564", "ime": "Podbablje", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1565", "ime": "Podgora", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1566", "ime": "Podstrana", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1567", "ime": "Postira", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1568", "ime": "Prgomet", "zupanija": "Splitsko-dalmatinska" },
+    {
+        "id": "1535",
+        "ime": "Sunja",
+        "zupanija": { "ime": "Sisačko-moslavačka", "id": "1163" }
+    },
+    {
+        "id": "1536",
+        "ime": "Topusko",
+        "zupanija": { "ime": "Sisačko-moslavačka", "id": "1163" }
+    },
+    {
+        "id": "1537",
+        "ime": "Velika Ludina",
+        "zupanija": { "ime": "Sisačko-moslavačka", "id": "1163" }
+    },
+    { "id": "1163", "ime": "Sisačko-moslavačka" },
+    {
+        "id": "1538",
+        "ime": "Baška Voda",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1539",
+        "ime": "Bol",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1540",
+        "ime": "Brela",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1541",
+        "ime": "Cista Provo",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1542",
+        "ime": "Dicmo",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1543",
+        "ime": "Dugi Rat",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1544",
+        "ime": "Dugopolje",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1545",
+        "ime": "Gradac",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1546",
+        "ime": "Hrvace",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1547",
+        "ime": "Hvar",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1548",
+        "ime": "Imotski",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1549",
+        "ime": "Jelsa",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1550",
+        "ime": "Kaštela",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1551",
+        "ime": "Klis",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1552",
+        "ime": "Komiža",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1553",
+        "ime": "Lećevica",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1554",
+        "ime": "Lokvičići",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1555",
+        "ime": "Lovreć",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1556",
+        "ime": "Makarska",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1557",
+        "ime": "Marina",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1558",
+        "ime": "Milna",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1559",
+        "ime": "Muć",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1560",
+        "ime": "Nerežišća",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1561",
+        "ime": "Okrug",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1562",
+        "ime": "Omiš",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1563",
+        "ime": "Otok",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1564",
+        "ime": "Podbablje",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1565",
+        "ime": "Podgora",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1566",
+        "ime": "Podstrana",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1567",
+        "ime": "Postira",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1568",
+        "ime": "Prgomet",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
     {
         "id": "1569",
         "ime": "Primorski Dolac",
-        "zupanija": "Splitsko-dalmatinska"
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
     },
-    { "id": "1570", "ime": "Proložac", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1571", "ime": "Pučišća", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1572", "ime": "Runovići", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1573", "ime": "Seget", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1574", "ime": "Selca", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1575", "ime": "Sinj", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1576", "ime": "Solin", "zupanija": "Splitsko-dalmatinska" },
+    {
+        "id": "1570",
+        "ime": "Proložac",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1571",
+        "ime": "Pučišća",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1572",
+        "ime": "Runovići",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1573",
+        "ime": "Seget",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1574",
+        "ime": "Selca",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1575",
+        "ime": "Sinj",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1576",
+        "ime": "Solin",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
     {
         "id": "1577",
         "ime": "Solin - Okolica",
-        "zupanija": "Splitsko-dalmatinska"
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
     },
-    { "id": "1578", "ime": "Split", "zupanija": "Splitsko-dalmatinska" },
+    {
+        "id": "1578",
+        "ime": "Split",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
     {
         "id": "1579",
         "ime": "Split - Okolica",
-        "zupanija": "Splitsko-dalmatinska"
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
     },
-    { "id": "1580", "ime": "Stari Grad", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1581", "ime": "Sućuraj", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1582", "ime": "Supetar", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1583", "ime": "Sutivan", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1584", "ime": "Šestanovac", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1585", "ime": "Šolta", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1586", "ime": "Trilj", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1587", "ime": "Trogir", "zupanija": "Splitsko-dalmatinska" },
+    {
+        "id": "1580",
+        "ime": "Stari Grad",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1581",
+        "ime": "Sućuraj",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1582",
+        "ime": "Supetar",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1583",
+        "ime": "Sutivan",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1584",
+        "ime": "Šestanovac",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1585",
+        "ime": "Šolta",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1586",
+        "ime": "Trilj",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1587",
+        "ime": "Trogir",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
     {
         "id": "1588",
         "ime": "Trogir - Okolica",
-        "zupanija": "Splitsko-dalmatinska"
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
     },
-    { "id": "1589", "ime": "Tučepi", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1590", "ime": "Vis", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1591", "ime": "Vrgorac", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1592", "ime": "Vrlika", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1593", "ime": "Zadvarje", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1594", "ime": "Zagvozd", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1595", "ime": "Zmijavci", "zupanija": "Splitsko-dalmatinska" },
-    { "id": "1597", "ime": "Biskupija", "zupanija": "Šibensko-kninska" },
-    { "id": "1598", "ime": "Civljane", "zupanija": "Šibensko-kninska" },
-    { "id": "1599", "ime": "Drniš", "zupanija": "Šibensko-kninska" },
-    { "id": "1600", "ime": "Ervenik", "zupanija": "Šibensko-kninska" },
-    { "id": "1601", "ime": "Kijevo", "zupanija": "Šibensko-kninska" },
-    { "id": "1602", "ime": "Kistanje", "zupanija": "Šibensko-kninska" },
-    { "id": "1603", "ime": "Knin", "zupanija": "Šibensko-kninska" },
-    { "id": "1604", "ime": "Murter", "zupanija": "Šibensko-kninska" },
-    { "id": "1605", "ime": "Pirovac", "zupanija": "Šibensko-kninska" },
-    { "id": "1606", "ime": "Primošten", "zupanija": "Šibensko-kninska" },
-    { "id": "1607", "ime": "Promina", "zupanija": "Šibensko-kninska" },
-    { "id": "1608", "ime": "Rogoznica", "zupanija": "Šibensko-kninska" },
-    { "id": "1609", "ime": "Ružić", "zupanija": "Šibensko-kninska" },
-    { "id": "1610", "ime": "Skradin", "zupanija": "Šibensko-kninska" },
-    { "id": "1611", "ime": "Šibenik", "zupanija": "Šibensko-kninska" },
+    {
+        "id": "1589",
+        "ime": "Tučepi",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1590",
+        "ime": "Vis",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1591",
+        "ime": "Vrgorac",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1592",
+        "ime": "Vrlika",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1593",
+        "ime": "Zadvarje",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1594",
+        "ime": "Zagvozd",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    {
+        "id": "1595",
+        "ime": "Zmijavci",
+        "zupanija": { "ime": "Splitsko-dalmatinska", "id": "1164" }
+    },
+    { "id": "1164", "ime": "Splitsko-dalmatinska" },
+    {
+        "id": "1597",
+        "ime": "Biskupija",
+        "zupanija": { "ime": "Šibensko-kninska", "id": "1165" }
+    },
+    {
+        "id": "1598",
+        "ime": "Civljane",
+        "zupanija": { "ime": "Šibensko-kninska", "id": "1165" }
+    },
+    {
+        "id": "1599",
+        "ime": "Drniš",
+        "zupanija": { "ime": "Šibensko-kninska", "id": "1165" }
+    },
+    {
+        "id": "1600",
+        "ime": "Ervenik",
+        "zupanija": { "ime": "Šibensko-kninska", "id": "1165" }
+    },
+    {
+        "id": "1601",
+        "ime": "Kijevo",
+        "zupanija": { "ime": "Šibensko-kninska", "id": "1165" }
+    },
+    {
+        "id": "1602",
+        "ime": "Kistanje",
+        "zupanija": { "ime": "Šibensko-kninska", "id": "1165" }
+    },
+    {
+        "id": "1603",
+        "ime": "Knin",
+        "zupanija": { "ime": "Šibensko-kninska", "id": "1165" }
+    },
+    {
+        "id": "1604",
+        "ime": "Murter",
+        "zupanija": { "ime": "Šibensko-kninska", "id": "1165" }
+    },
+    {
+        "id": "1605",
+        "ime": "Pirovac",
+        "zupanija": { "ime": "Šibensko-kninska", "id": "1165" }
+    },
+    {
+        "id": "1606",
+        "ime": "Primošten",
+        "zupanija": { "ime": "Šibensko-kninska", "id": "1165" }
+    },
+    {
+        "id": "1607",
+        "ime": "Promina",
+        "zupanija": { "ime": "Šibensko-kninska", "id": "1165" }
+    },
+    {
+        "id": "1608",
+        "ime": "Rogoznica",
+        "zupanija": { "ime": "Šibensko-kninska", "id": "1165" }
+    },
+    {
+        "id": "1609",
+        "ime": "Ružić",
+        "zupanija": { "ime": "Šibensko-kninska", "id": "1165" }
+    },
+    {
+        "id": "1610",
+        "ime": "Skradin",
+        "zupanija": { "ime": "Šibensko-kninska", "id": "1165" }
+    },
+    {
+        "id": "1611",
+        "ime": "Šibenik",
+        "zupanija": { "ime": "Šibensko-kninska", "id": "1165" }
+    },
     {
         "id": "1612",
         "ime": "Šibenik - Okolica",
-        "zupanija": "Šibensko-kninska"
+        "zupanija": { "ime": "Šibensko-kninska", "id": "1165" }
     },
-    { "id": "1613", "ime": "Tisno", "zupanija": "Šibensko-kninska" },
-    { "id": "13608", "ime": "Tribunj", "zupanija": "Šibensko-kninska" },
-    { "id": "1614", "ime": "Unešić", "zupanija": "Šibensko-kninska" },
-    { "id": "1615", "ime": "Vodice", "zupanija": "Šibensko-kninska" },
-    { "id": "1616", "ime": "Bednja", "zupanija": "Varaždinska" },
-    { "id": "1617", "ime": "Beretinec", "zupanija": "Varaždinska" },
-    { "id": "1618", "ime": "Breznica", "zupanija": "Varaždinska" },
-    { "id": "1619", "ime": "Breznički Hum", "zupanija": "Varaždinska" },
-    { "id": "1620", "ime": "Cestica", "zupanija": "Varaždinska" },
-    { "id": "1621", "ime": "Donja Voća", "zupanija": "Varaždinska" },
-    { "id": "1622", "ime": "Martijanec", "zupanija": "Varaždinska" },
-    { "id": "1623", "ime": "Gornji Kneginec", "zupanija": "Varaždinska" },
-    { "id": "1624", "ime": "Ivanec", "zupanija": "Varaždinska" },
-    { "id": "1625", "ime": "Jalžabet", "zupanija": "Varaždinska" },
-    { "id": "1626", "ime": "Klenovnik", "zupanija": "Varaždinska" },
-    { "id": "1627", "ime": "Lepoglava", "zupanija": "Varaždinska" },
-    { "id": "1628", "ime": "Ludbreg", "zupanija": "Varaždinska" },
-    { "id": "1629", "ime": "Ljubešćica", "zupanija": "Varaždinska" },
-    { "id": "1630", "ime": "Mali Bukovec", "zupanija": "Varaždinska" },
-    { "id": "1631", "ime": "Maruševec", "zupanija": "Varaždinska" },
-    { "id": "1632", "ime": "Novi Marof", "zupanija": "Varaždinska" },
-    { "id": "1633", "ime": "Petrijanec", "zupanija": "Varaždinska" },
-    { "id": "1634", "ime": "Sračinec", "zupanija": "Varaždinska" },
-    { "id": "1635", "ime": "Sveti Đurđ", "zupanija": "Varaždinska" },
-    { "id": "1636", "ime": "Sveti Ilija", "zupanija": "Varaždinska" },
-    { "id": "1637", "ime": "Trnovec Bartolovečki", "zupanija": "Varaždinska" },
-    { "id": "1638", "ime": "Varaždin", "zupanija": "Varaždinska" },
-    { "id": "1639", "ime": "Varaždin - Okolica", "zupanija": "Varaždinska" },
-    { "id": "1640", "ime": "Varaždinske Toplice", "zupanija": "Varaždinska" },
-    { "id": "1641", "ime": "Veliki Bukovec", "zupanija": "Varaždinska" },
-    { "id": "1642", "ime": "Vidovec", "zupanija": "Varaždinska" },
-    { "id": "1643", "ime": "Vinica", "zupanija": "Varaždinska" },
-    { "id": "1644", "ime": "Visoko", "zupanija": "Varaždinska" },
-    { "id": "1645", "ime": "Crnac", "zupanija": "Virovitičko-podravska" },
-    { "id": "1646", "ime": "Čačinci", "zupanija": "Virovitičko-podravska" },
-    { "id": "1647", "ime": "Čađavica", "zupanija": "Virovitičko-podravska" },
-    { "id": "1648", "ime": "Gradina", "zupanija": "Virovitičko-podravska" },
-    { "id": "1649", "ime": "Lukač", "zupanija": "Virovitičko-podravska" },
-    { "id": "1650", "ime": "Mikleuš", "zupanija": "Virovitičko-podravska" },
+    {
+        "id": "1613",
+        "ime": "Tisno",
+        "zupanija": { "ime": "Šibensko-kninska", "id": "1165" }
+    },
+    {
+        "id": "13608",
+        "ime": "Tribunj",
+        "zupanija": { "ime": "Šibensko-kninska", "id": "1165" }
+    },
+    {
+        "id": "1614",
+        "ime": "Unešić",
+        "zupanija": { "ime": "Šibensko-kninska", "id": "1165" }
+    },
+    {
+        "id": "1615",
+        "ime": "Vodice",
+        "zupanija": { "ime": "Šibensko-kninska", "id": "1165" }
+    },
+    { "id": "1165", "ime": "Šibensko-kninska" },
+    {
+        "id": "1616",
+        "ime": "Bednja",
+        "zupanija": { "ime": "Varaždinska", "id": "1166" }
+    },
+    {
+        "id": "1617",
+        "ime": "Beretinec",
+        "zupanija": { "ime": "Varaždinska", "id": "1166" }
+    },
+    {
+        "id": "1618",
+        "ime": "Breznica",
+        "zupanija": { "ime": "Varaždinska", "id": "1166" }
+    },
+    {
+        "id": "1619",
+        "ime": "Breznički Hum",
+        "zupanija": { "ime": "Varaždinska", "id": "1166" }
+    },
+    {
+        "id": "1620",
+        "ime": "Cestica",
+        "zupanija": { "ime": "Varaždinska", "id": "1166" }
+    },
+    {
+        "id": "1621",
+        "ime": "Donja Voća",
+        "zupanija": { "ime": "Varaždinska", "id": "1166" }
+    },
+    {
+        "id": "1622",
+        "ime": "Martijanec",
+        "zupanija": { "ime": "Varaždinska", "id": "1166" }
+    },
+    {
+        "id": "1623",
+        "ime": "Gornji Kneginec",
+        "zupanija": { "ime": "Varaždinska", "id": "1166" }
+    },
+    {
+        "id": "1624",
+        "ime": "Ivanec",
+        "zupanija": { "ime": "Varaždinska", "id": "1166" }
+    },
+    {
+        "id": "1625",
+        "ime": "Jalžabet",
+        "zupanija": { "ime": "Varaždinska", "id": "1166" }
+    },
+    {
+        "id": "1626",
+        "ime": "Klenovnik",
+        "zupanija": { "ime": "Varaždinska", "id": "1166" }
+    },
+    {
+        "id": "1627",
+        "ime": "Lepoglava",
+        "zupanija": { "ime": "Varaždinska", "id": "1166" }
+    },
+    {
+        "id": "1628",
+        "ime": "Ludbreg",
+        "zupanija": { "ime": "Varaždinska", "id": "1166" }
+    },
+    {
+        "id": "1629",
+        "ime": "Ljubešćica",
+        "zupanija": { "ime": "Varaždinska", "id": "1166" }
+    },
+    {
+        "id": "1630",
+        "ime": "Mali Bukovec",
+        "zupanija": { "ime": "Varaždinska", "id": "1166" }
+    },
+    {
+        "id": "1631",
+        "ime": "Maruševec",
+        "zupanija": { "ime": "Varaždinska", "id": "1166" }
+    },
+    {
+        "id": "1632",
+        "ime": "Novi Marof",
+        "zupanija": { "ime": "Varaždinska", "id": "1166" }
+    },
+    {
+        "id": "1633",
+        "ime": "Petrijanec",
+        "zupanija": { "ime": "Varaždinska", "id": "1166" }
+    },
+    {
+        "id": "1634",
+        "ime": "Sračinec",
+        "zupanija": { "ime": "Varaždinska", "id": "1166" }
+    },
+    {
+        "id": "1635",
+        "ime": "Sveti Đurđ",
+        "zupanija": { "ime": "Varaždinska", "id": "1166" }
+    },
+    {
+        "id": "1636",
+        "ime": "Sveti Ilija",
+        "zupanija": { "ime": "Varaždinska", "id": "1166" }
+    },
+    {
+        "id": "1637",
+        "ime": "Trnovec Bartolovečki",
+        "zupanija": { "ime": "Varaždinska", "id": "1166" }
+    },
+    {
+        "id": "1638",
+        "ime": "Varaždin",
+        "zupanija": { "ime": "Varaždinska", "id": "1166" }
+    },
+    {
+        "id": "1639",
+        "ime": "Varaždin - Okolica",
+        "zupanija": { "ime": "Varaždinska", "id": "1166" }
+    },
+    {
+        "id": "1640",
+        "ime": "Varaždinske Toplice",
+        "zupanija": { "ime": "Varaždinska", "id": "1166" }
+    },
+    {
+        "id": "1641",
+        "ime": "Veliki Bukovec",
+        "zupanija": { "ime": "Varaždinska", "id": "1166" }
+    },
+    {
+        "id": "1642",
+        "ime": "Vidovec",
+        "zupanija": { "ime": "Varaždinska", "id": "1166" }
+    },
+    {
+        "id": "1643",
+        "ime": "Vinica",
+        "zupanija": { "ime": "Varaždinska", "id": "1166" }
+    },
+    {
+        "id": "1644",
+        "ime": "Visoko",
+        "zupanija": { "ime": "Varaždinska", "id": "1166" }
+    },
+    { "id": "1166", "ime": "Varaždinska" },
+    {
+        "id": "1645",
+        "ime": "Crnac",
+        "zupanija": { "ime": "Virovitičko-podravska", "id": "1167" }
+    },
+    {
+        "id": "1646",
+        "ime": "Čačinci",
+        "zupanija": { "ime": "Virovitičko-podravska", "id": "1167" }
+    },
+    {
+        "id": "1647",
+        "ime": "Čađavica",
+        "zupanija": { "ime": "Virovitičko-podravska", "id": "1167" }
+    },
+    {
+        "id": "1648",
+        "ime": "Gradina",
+        "zupanija": { "ime": "Virovitičko-podravska", "id": "1167" }
+    },
+    {
+        "id": "1649",
+        "ime": "Lukač",
+        "zupanija": { "ime": "Virovitičko-podravska", "id": "1167" }
+    },
+    {
+        "id": "1650",
+        "ime": "Mikleuš",
+        "zupanija": { "ime": "Virovitičko-podravska", "id": "1167" }
+    },
     {
         "id": "1651",
         "ime": "Nova Bukovica",
-        "zupanija": "Virovitičko-podravska"
+        "zupanija": { "ime": "Virovitičko-podravska", "id": "1167" }
     },
-    { "id": "1652", "ime": "Orahovica", "zupanija": "Virovitičko-podravska" },
-    { "id": "1653", "ime": "Pitomača", "zupanija": "Virovitičko-podravska" },
-    { "id": "1654", "ime": "Slatina", "zupanija": "Virovitičko-podravska" },
-    { "id": "1655", "ime": "Sopje", "zupanija": "Virovitičko-podravska" },
-    { "id": "1656", "ime": "Suhopolje", "zupanija": "Virovitičko-podravska" },
+    {
+        "id": "1652",
+        "ime": "Orahovica",
+        "zupanija": { "ime": "Virovitičko-podravska", "id": "1167" }
+    },
+    {
+        "id": "1653",
+        "ime": "Pitomača",
+        "zupanija": { "ime": "Virovitičko-podravska", "id": "1167" }
+    },
+    {
+        "id": "1654",
+        "ime": "Slatina",
+        "zupanija": { "ime": "Virovitičko-podravska", "id": "1167" }
+    },
+    {
+        "id": "1655",
+        "ime": "Sopje",
+        "zupanija": { "ime": "Virovitičko-podravska", "id": "1167" }
+    },
+    {
+        "id": "1656",
+        "ime": "Suhopolje",
+        "zupanija": { "ime": "Virovitičko-podravska", "id": "1167" }
+    },
     {
         "id": "1657",
         "ime": "Špišić Bukovica",
-        "zupanija": "Virovitičko-podravska"
+        "zupanija": { "ime": "Virovitičko-podravska", "id": "1167" }
     },
-    { "id": "1658", "ime": "Virovitica", "zupanija": "Virovitičko-podravska" },
+    {
+        "id": "1658",
+        "ime": "Virovitica",
+        "zupanija": { "ime": "Virovitičko-podravska", "id": "1167" }
+    },
     {
         "id": "1659",
         "ime": "Virovitica - Okolica",
-        "zupanija": "Virovitičko-podravska"
+        "zupanija": { "ime": "Virovitičko-podravska", "id": "1167" }
     },
-    { "id": "1660", "ime": "Voćin", "zupanija": "Virovitičko-podravska" },
-    { "id": "1661", "ime": "Zdenci", "zupanija": "Virovitičko-podravska" },
-    { "id": "1662", "ime": "Andrijaševci", "zupanija": "Vukovarsko-srijemska" },
-    { "id": "1663", "ime": "Babina Greda", "zupanija": "Vukovarsko-srijemska" },
-    { "id": "1664", "ime": "Bogdanovci", "zupanija": "Vukovarsko-srijemska" },
-    { "id": "1665", "ime": "Borovo", "zupanija": "Vukovarsko-srijemska" },
-    { "id": "1666", "ime": "Bošnjaci", "zupanija": "Vukovarsko-srijemska" },
-    { "id": "1667", "ime": "Cerna", "zupanija": "Vukovarsko-srijemska" },
-    { "id": "1668", "ime": "Drenovci", "zupanija": "Vukovarsko-srijemska" },
-    { "id": "1669", "ime": "Gradište", "zupanija": "Vukovarsko-srijemska" },
-    { "id": "1670", "ime": "Gunja", "zupanija": "Vukovarsko-srijemska" },
-    { "id": "1671", "ime": "Ilok", "zupanija": "Vukovarsko-srijemska" },
-    { "id": "1672", "ime": "Ivankovo", "zupanija": "Vukovarsko-srijemska" },
-    { "id": "1673", "ime": "Jarmina", "zupanija": "Vukovarsko-srijemska" },
-    { "id": "1674", "ime": "Lovas", "zupanija": "Vukovarsko-srijemska" },
-    { "id": "1675", "ime": "Markušica", "zupanija": "Vukovarsko-srijemska" },
-    { "id": "1676", "ime": "Negoslavci", "zupanija": "Vukovarsko-srijemska" },
-    { "id": "1677", "ime": "Nijemci", "zupanija": "Vukovarsko-srijemska" },
-    { "id": "1678", "ime": "Nuštar", "zupanija": "Vukovarsko-srijemska" },
-    { "id": "1679", "ime": "Otok", "zupanija": "Vukovarsko-srijemska" },
-    { "id": "1680", "ime": "Privlaka", "zupanija": "Vukovarsko-srijemska" },
+    {
+        "id": "1660",
+        "ime": "Voćin",
+        "zupanija": { "ime": "Virovitičko-podravska", "id": "1167" }
+    },
+    {
+        "id": "1661",
+        "ime": "Zdenci",
+        "zupanija": { "ime": "Virovitičko-podravska", "id": "1167" }
+    },
+    { "id": "1167", "ime": "Virovitičko-podravska" },
+    {
+        "id": "1662",
+        "ime": "Andrijaševci",
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
+    },
+    {
+        "id": "1663",
+        "ime": "Babina Greda",
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
+    },
+    {
+        "id": "1664",
+        "ime": "Bogdanovci",
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
+    },
+    {
+        "id": "1665",
+        "ime": "Borovo",
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
+    },
+    {
+        "id": "1666",
+        "ime": "Bošnjaci",
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
+    },
+    {
+        "id": "1667",
+        "ime": "Cerna",
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
+    },
+    {
+        "id": "1668",
+        "ime": "Drenovci",
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
+    },
+    {
+        "id": "1669",
+        "ime": "Gradište",
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
+    },
+    {
+        "id": "1670",
+        "ime": "Gunja",
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
+    },
+    {
+        "id": "1671",
+        "ime": "Ilok",
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
+    },
+    {
+        "id": "1672",
+        "ime": "Ivankovo",
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
+    },
+    {
+        "id": "1673",
+        "ime": "Jarmina",
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
+    },
+    {
+        "id": "1674",
+        "ime": "Lovas",
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
+    },
+    {
+        "id": "1675",
+        "ime": "Markušica",
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
+    },
+    {
+        "id": "1676",
+        "ime": "Negoslavci",
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
+    },
+    {
+        "id": "1677",
+        "ime": "Nijemci",
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
+    },
+    {
+        "id": "1678",
+        "ime": "Nuštar",
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
+    },
+    {
+        "id": "1679",
+        "ime": "Otok",
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
+    },
+    {
+        "id": "1680",
+        "ime": "Privlaka",
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
+    },
     {
         "id": "1681",
         "ime": "Stari Jankovci",
-        "zupanija": "Vukovarsko-srijemska"
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
     },
     {
         "id": "1682",
         "ime": "Stari Mikanovci",
-        "zupanija": "Vukovarsko-srijemska"
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
     },
-    { "id": "15201", "ime": "Štitar", "zupanija": "Vukovarsko-srijemska" },
-    { "id": "1683", "ime": "Tompojevci", "zupanija": "Vukovarsko-srijemska" },
-    { "id": "1684", "ime": "Tordinci", "zupanija": "Vukovarsko-srijemska" },
-    { "id": "1685", "ime": "Tovarnik", "zupanija": "Vukovarsko-srijemska" },
-    { "id": "1686", "ime": "Trpinja", "zupanija": "Vukovarsko-srijemska" },
-    { "id": "1687", "ime": "Vinkovci", "zupanija": "Vukovarsko-srijemska" },
-    { "id": "1689", "ime": "Vođinci", "zupanija": "Vukovarsko-srijemska" },
-    { "id": "1690", "ime": "Vrbanja", "zupanija": "Vukovarsko-srijemska" },
-    { "id": "1691", "ime": "Vukovar", "zupanija": "Vukovarsko-srijemska" },
+    {
+        "id": "15201",
+        "ime": "Štitar",
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
+    },
+    {
+        "id": "1683",
+        "ime": "Tompojevci",
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
+    },
+    {
+        "id": "1684",
+        "ime": "Tordinci",
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
+    },
+    {
+        "id": "1685",
+        "ime": "Tovarnik",
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
+    },
+    {
+        "id": "1686",
+        "ime": "Trpinja",
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
+    },
+    {
+        "id": "1687",
+        "ime": "Vinkovci",
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
+    },
+    {
+        "id": "1689",
+        "ime": "Vođinci",
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
+    },
+    {
+        "id": "1690",
+        "ime": "Vrbanja",
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
+    },
+    {
+        "id": "1691",
+        "ime": "Vukovar",
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
+    },
     {
         "id": "1692",
         "ime": "Vukovar - Okolica",
-        "zupanija": "Vukovarsko-srijemska"
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
     },
-    { "id": "1693", "ime": "Županja", "zupanija": "Vukovarsko-srijemska" },
-    { "id": "1694", "ime": "Benkovac", "zupanija": "Zadarska" },
-    { "id": "1695", "ime": "Bibinje", "zupanija": "Zadarska" },
-    { "id": "1696", "ime": "Biograd Na Moru", "zupanija": "Zadarska" },
-    { "id": "1697", "ime": "Galovac", "zupanija": "Zadarska" },
-    { "id": "1698", "ime": "Gračac", "zupanija": "Zadarska" },
-    { "id": "1699", "ime": "Jasenice", "zupanija": "Zadarska" },
-    { "id": "1700", "ime": "Kali", "zupanija": "Zadarska" },
-    { "id": "15199", "ime": "Kolan", "zupanija": "Zadarska" },
-    { "id": "1702", "ime": "Kukljica", "zupanija": "Zadarska" },
-    { "id": "1703", "ime": "Lišane Ostrovičke", "zupanija": "Zadarska" },
-    { "id": "1704", "ime": "Nin", "zupanija": "Zadarska" },
-    { "id": "1705", "ime": "Novigrad", "zupanija": "Zadarska" },
-    { "id": "1706", "ime": "Obrovac", "zupanija": "Zadarska" },
-    { "id": "1707", "ime": "Pag", "zupanija": "Zadarska" },
-    { "id": "1708", "ime": "Pakoštane", "zupanija": "Zadarska" },
-    { "id": "1709", "ime": "Pašman", "zupanija": "Zadarska" },
-    { "id": "1710", "ime": "Polača", "zupanija": "Zadarska" },
-    { "id": "1711", "ime": "Poličnik", "zupanija": "Zadarska" },
-    { "id": "1712", "ime": "Posedarje", "zupanija": "Zadarska" },
-    { "id": "1713", "ime": "Povljana", "zupanija": "Zadarska" },
-    { "id": "1714", "ime": "Preko", "zupanija": "Zadarska" },
-    { "id": "1715", "ime": "Privlaka", "zupanija": "Zadarska" },
-    { "id": "1716", "ime": "Ražanac", "zupanija": "Zadarska" },
-    { "id": "1717", "ime": "Sali", "zupanija": "Zadarska" },
-    { "id": "1718", "ime": "Stankovci", "zupanija": "Zadarska" },
-    { "id": "1719", "ime": "Starigrad", "zupanija": "Zadarska" },
-    { "id": "1720", "ime": "Sukošan", "zupanija": "Zadarska" },
-    { "id": "1721", "ime": "Sveti Filip I Jakov", "zupanija": "Zadarska" },
-    { "id": "1722", "ime": "Škabrnje", "zupanija": "Zadarska" },
-    { "id": "1723", "ime": "Tkon", "zupanija": "Zadarska" },
-    { "id": "1724", "ime": "Vir", "zupanija": "Zadarska" },
-    { "id": "13542", "ime": "Vrsi", "zupanija": "Zadarska" },
-    { "id": "1725", "ime": "Zadar", "zupanija": "Zadarska" },
-    { "id": "1726", "ime": "Zadar - Okolica", "zupanija": "Zadarska" },
-    { "id": "1727", "ime": "Zemunik Donji", "zupanija": "Zadarska" },
-    { "id": "1728", "ime": "Bedenica", "zupanija": "Zagrebačka" },
-    { "id": "1729", "ime": "Bistra", "zupanija": "Zagrebačka" },
-    { "id": "1730", "ime": "Brckovljani", "zupanija": "Zagrebačka" },
-    { "id": "1731", "ime": "Brdovec", "zupanija": "Zagrebačka" },
-    { "id": "1732", "ime": "Dubrava", "zupanija": "Zagrebačka" },
-    { "id": "1733", "ime": "Dubravica", "zupanija": "Zagrebačka" },
-    { "id": "1734", "ime": "Dugo Selo", "zupanija": "Zagrebačka" },
-    { "id": "1735", "ime": "Dugo Selo - Okolica", "zupanija": "Zagrebačka" },
-    { "id": "1736", "ime": "Farkaševac", "zupanija": "Zagrebačka" },
-    { "id": "1737", "ime": "Gradec", "zupanija": "Zagrebačka" },
-    { "id": "1738", "ime": "Ivanić-Grad", "zupanija": "Zagrebačka" },
-    { "id": "1739", "ime": "Ivanić-Grad - Okolica", "zupanija": "Zagrebačka" },
-    { "id": "1740", "ime": "Jakovlje", "zupanija": "Zagrebačka" },
-    { "id": "1741", "ime": "Jastrebarsko", "zupanija": "Zagrebačka" },
-    { "id": "1742", "ime": "Jastrebarsko - Okolica", "zupanija": "Zagrebačka" },
-    { "id": "1743", "ime": "Klinča Sela", "zupanija": "Zagrebačka" },
-    { "id": "1744", "ime": "Kloštar Ivanić", "zupanija": "Zagrebačka" },
-    { "id": "1745", "ime": "Krašić", "zupanija": "Zagrebačka" },
-    { "id": "1746", "ime": "Kravarsko", "zupanija": "Zagrebačka" },
-    { "id": "1747", "ime": "Križ", "zupanija": "Zagrebačka" },
-    { "id": "1748", "ime": "Luka", "zupanija": "Zagrebačka" },
-    { "id": "1749", "ime": "Marija Gorica", "zupanija": "Zagrebačka" },
-    { "id": "1750", "ime": "Orle", "zupanija": "Zagrebačka" },
-    { "id": "1751", "ime": "Pisarovina", "zupanija": "Zagrebačka" },
-    { "id": "1752", "ime": "Pokupsko", "zupanija": "Zagrebačka" },
-    { "id": "1753", "ime": "Preseka", "zupanija": "Zagrebačka" },
-    { "id": "1754", "ime": "Pušća", "zupanija": "Zagrebačka" },
-    { "id": "1755", "ime": "Rakovec", "zupanija": "Zagrebačka" },
-    { "id": "1756", "ime": "Rugvica", "zupanija": "Zagrebačka" },
-    { "id": "1757", "ime": "Samobor", "zupanija": "Zagrebačka" },
-    { "id": "1758", "ime": "Samobor - Okolica", "zupanija": "Zagrebačka" },
-    { "id": "1759", "ime": "Stupnik", "zupanija": "Zagrebačka" },
-    { "id": "1760", "ime": "Sveta Nedelja", "zupanija": "Zagrebačka" },
-    { "id": "1761", "ime": "Sveti Ivan Zelina", "zupanija": "Zagrebačka" },
-    { "id": "1762", "ime": "Velika Gorica", "zupanija": "Zagrebačka" },
+    {
+        "id": "1693",
+        "ime": "Županja",
+        "zupanija": { "ime": "Vukovarsko-srijemska", "id": "1168" }
+    },
+    { "id": "1168", "ime": "Vukovarsko-srijemska" },
+    {
+        "id": "1694",
+        "ime": "Benkovac",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1695",
+        "ime": "Bibinje",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1696",
+        "ime": "Biograd Na Moru",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1697",
+        "ime": "Galovac",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1698",
+        "ime": "Gračac",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1699",
+        "ime": "Jasenice",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1700",
+        "ime": "Kali",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "15199",
+        "ime": "Kolan",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1702",
+        "ime": "Kukljica",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1703",
+        "ime": "Lišane Ostrovičke",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1704",
+        "ime": "Nin",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1705",
+        "ime": "Novigrad",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1706",
+        "ime": "Obrovac",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1707",
+        "ime": "Pag",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1708",
+        "ime": "Pakoštane",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1709",
+        "ime": "Pašman",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1710",
+        "ime": "Polača",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1711",
+        "ime": "Poličnik",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1712",
+        "ime": "Posedarje",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1713",
+        "ime": "Povljana",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1714",
+        "ime": "Preko",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1715",
+        "ime": "Privlaka",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1716",
+        "ime": "Ražanac",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1717",
+        "ime": "Sali",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1718",
+        "ime": "Stankovci",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1719",
+        "ime": "Starigrad",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1720",
+        "ime": "Sukošan",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1721",
+        "ime": "Sveti Filip I Jakov",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1722",
+        "ime": "Škabrnje",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1723",
+        "ime": "Tkon",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1724",
+        "ime": "Vir",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "13542",
+        "ime": "Vrsi",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1725",
+        "ime": "Zadar",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1726",
+        "ime": "Zadar - Okolica",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    {
+        "id": "1727",
+        "ime": "Zemunik Donji",
+        "zupanija": { "ime": "Zadarska", "id": "1169" }
+    },
+    { "id": "1169", "ime": "Zadarska" },
+    {
+        "id": "1728",
+        "ime": "Bedenica",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1729",
+        "ime": "Bistra",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1730",
+        "ime": "Brckovljani",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1731",
+        "ime": "Brdovec",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1732",
+        "ime": "Dubrava",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1733",
+        "ime": "Dubravica",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1734",
+        "ime": "Dugo Selo",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1735",
+        "ime": "Dugo Selo - Okolica",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1736",
+        "ime": "Farkaševac",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1737",
+        "ime": "Gradec",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1738",
+        "ime": "Ivanić-Grad",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1739",
+        "ime": "Ivanić-Grad - Okolica",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1740",
+        "ime": "Jakovlje",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1741",
+        "ime": "Jastrebarsko",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1742",
+        "ime": "Jastrebarsko - Okolica",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1743",
+        "ime": "Klinča Sela",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1744",
+        "ime": "Kloštar Ivanić",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1745",
+        "ime": "Krašić",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1746",
+        "ime": "Kravarsko",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1747",
+        "ime": "Križ",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1748",
+        "ime": "Luka",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1749",
+        "ime": "Marija Gorica",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1750",
+        "ime": "Orle",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1751",
+        "ime": "Pisarovina",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1752",
+        "ime": "Pokupsko",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1753",
+        "ime": "Preseka",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1754",
+        "ime": "Pušća",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1755",
+        "ime": "Rakovec",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1756",
+        "ime": "Rugvica",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1757",
+        "ime": "Samobor",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1758",
+        "ime": "Samobor - Okolica",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1759",
+        "ime": "Stupnik",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1760",
+        "ime": "Sveta Nedelja",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1761",
+        "ime": "Sveti Ivan Zelina",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1762",
+        "ime": "Velika Gorica",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
     {
         "id": "1763",
         "ime": "Velika Gorica - Okolica",
-        "zupanija": "Zagrebačka"
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
     },
-    { "id": "1764", "ime": "Vrbovec", "zupanija": "Zagrebačka" },
-    { "id": "1765", "ime": "Zaprešić", "zupanija": "Zagrebačka" },
-    { "id": "1766", "ime": "Zaprešić - Okolica", "zupanija": "Zagrebačka" },
-    { "id": "1767", "ime": "Žumberak", "zupanija": "Zagrebačka" }
+    {
+        "id": "1764",
+        "ime": "Vrbovec",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1765",
+        "ime": "Zaprešić",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1766",
+        "ime": "Zaprešić - Okolica",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    {
+        "id": "1767",
+        "ime": "Žumberak",
+        "zupanija": { "ime": "Zagrebačka", "id": "1170" }
+    },
+    { "id": "1170", "ime": "Zagrebačka" }
 ]

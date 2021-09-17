@@ -15,10 +15,11 @@ const Header = () => {
         const input = e.target.value
         let suggestions = []
         if (input.length > 0) {
-            const regex = new RegExp(`^${input}`, "i")
-            suggestions = locations
-                .filter((loc) => regex.test(loc.ime))
-                .slice(0, 5)
+            const regex = new RegExp(`^.*${input}.*$`, "i")
+            suggestions = locations.filter((loc) =>
+                regex.test(loc.ime + loc.zupanija)
+            )
+
             setSuggestions(suggestions)
         } else {
             setSuggestions([])
@@ -36,21 +37,26 @@ const Header = () => {
         }
 
         return (
-            <ul className="my-2 items-center justify-center">
-                {suggestions.map((item, index) => (
-                    <li
-                        key={index}
-                        onClick={() => onClick(item)}
-                        className="rounded-full flex items-center px-4 h-10 hover:bg-gray-200 active:scale-95 transition duration-150 overflow-hidden whitespace-nowrap overflow-ellipsis cursor-pointer">
-                        {item.ime}, {item.zupanija}
-                    </li>
-                ))}
+            <ul className="my-2 items-center justify-center max-h-48 ">
+                {suggestions
+                    .sort((a, b) => parseInt(a.id) - parseInt(b.id))
+                    .map((item, index) => (
+                        <li
+                            key={index}
+                            onClick={() => onClick(item)}
+                            className="rounded-full flex items-center px-4 h-10 hover:bg-gray-200 active:scale-95 transition duration-150 overflow-hidden whitespace-nowrap overflow-ellipsis cursor-pointer">
+                            {item.zupanija
+                                ? `${item.ime}, ${item.zupanija.ime}`
+                                : item.ime}
+                        </li>
+                    ))
+                    .slice(0, 5)}
             </ul>
         )
     }
 
     return (
-        <header className="sticky top-0 z-50 grid  grid-cols-2 md:grid-cols-3 bg-white shadow-md p-5 md:px-10">
+        <header className="sticky top-0 z-50 grid max-h-72 grid-cols-2 md:grid-cols-3 bg-white shadow-md p-5 md:px-10">
             <div className="hidden relative md:flex items-center h-10 cursor-pointer ">
                 <Image
                     src="/images/logo.png"
