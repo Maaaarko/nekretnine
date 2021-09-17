@@ -20,7 +20,22 @@ const Header = () => {
                 regex.test(loc.ime + loc.zupanija?.ime)
             )
 
-            setSuggestions(suggestions)
+            const topSuggestions = suggestions
+                .filter((e) =>
+                    e.ime.toLowerCase().startsWith(input.toLowerCase())
+                )
+                .sort((a, b) => parseInt(a.id) - parseInt(b.id))
+            console.log(suggestions)
+            console.log(topSuggestions)
+            const otherSuggestions = suggestions
+                .filter(
+                    (e) => !e.ime.toLowerCase().startsWith(input.toLowerCase())
+                )
+                .sort((a, b) => parseInt(a.id) - parseInt(b.id))
+
+            const sortedSuggestions = topSuggestions.concat(otherSuggestions)
+
+            setSuggestions(sortedSuggestions)
         } else {
             setSuggestions([])
         }
@@ -39,7 +54,7 @@ const Header = () => {
         return (
             <ul className="my-2 items-center justify-center max-h-48 ">
                 {suggestions
-                    .sort((a, b) => parseInt(a.id) - parseInt(b.id))
+
                     .map((item, index) => (
                         <li
                             key={index}
