@@ -17,7 +17,7 @@ const Header = () => {
         if (input.length > 0) {
             const regex = new RegExp(`^.*${input}.*$`, "i")
             suggestions = locations.filter((loc) =>
-                regex.test(loc.ime + loc.zupanija)
+                regex.test(loc.ime + loc.zupanija?.ime)
             )
 
             setSuggestions(suggestions)
