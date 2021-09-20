@@ -8,9 +8,9 @@ import SmallCard from "../components/SmallCard"
 import locations from "../dummy/popularLocations"
 import properties from "../dummy/propertyTypes"
 
-export default function Home({ popularLocations, propertyTypes }) {
+const Home = ({ popularLocations, propertyTypes }) => {
     return (
-        <div className="">
+        <>
             <Head>
                 <title>Nekretnine</title>
                 <link rel="icon" href="/favicon.ico" />
@@ -51,7 +51,7 @@ export default function Home({ popularLocations, propertyTypes }) {
                 </section>
             </main>
             <Footer />
-        </div>
+        </>
     )
 }
 
@@ -69,3 +69,5 @@ export async function getStaticProps() {
         },
     }
 }
+
+export default Home

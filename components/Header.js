@@ -1,17 +1,19 @@
 import React, { useEffect, useRef, useState } from "react"
 import Image from "next/image"
+import { useRouter } from "next/dist/client/router"
 import {
     SearchIcon,
     MenuAlt4Icon,
     UserCircleIcon,
 } from "@heroicons/react/solid"
 import locations from "../public/locations.json"
-import { MapIcon, HomeIcon, OfficeBuildingIcon } from "@heroicons/react/outline"
+import { MapIcon, HomeIcon, OfficeBuildingIcon } from "@heroicons/react/solid"
 import SearchCard from "./SearchCard"
 
 const Header = () => {
     const wrapperRef = useRef(null)
     const [searching, setSearching] = useState(false)
+    const router = useRouter()
 
     useEffect(() => {
         document.addEventListener("click", handleClickOutside, false)
@@ -33,18 +35,18 @@ const Header = () => {
     return (
         <header
             ref={wrapperRef}
-            className="sticky top-0 z-50 max-h-72 bg-white shadow-md p-5 md:px-10">
-            <div className="grid grid-cols-2 md:grid-cols-3 justify-items-stretch">
-                <div className="hidden relative md:flex items-center h-10 cursor-pointer ">
+            className="sticky top-0 z-50 bg-white shadow-md p-5 md:px-10">
+            <div className="flex justify-between">
+                <div className="hidden relative md:inline-flex w-1/12 justify-start items-center h-10 cursor-pointer">
                     <Image
                         src="/images/logo.png"
-                        layout="fill"
                         objectFit="contain"
                         objectPosition="left"
+                        layout="fill"
                     />
                 </div>
 
-                <div className="flex items-center justify-center justify-items-end">
+                <div className="flex w-6/12 md:w-4/12 items-center justify-center justify-items-end">
                     <button
                         onClick={onClick}
                         className={
