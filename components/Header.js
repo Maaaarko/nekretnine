@@ -10,7 +10,7 @@ import locations from "../public/locations.json"
 import { MapIcon, HomeIcon, OfficeBuildingIcon } from "@heroicons/react/solid"
 import SearchCard from "./SearchCard"
 
-const Header = () => {
+const Header = ({ searchPlaceholder }) => {
     const wrapperRef = useRef(null)
     const [searching, setSearching] = useState(false)
     const router = useRouter()
@@ -28,8 +28,18 @@ const Header = () => {
         }
     }
 
-    const onClick = () => {
+    const onSearchBarClick = () => {
         setSearching(true)
+    }
+
+    const onSearch = (type) => {
+        router.push({
+            pathname: "/search",
+            query: {
+                type: type.toLowerCase(),
+            },
+        })
+        setSearching(false)
     }
 
     return (
@@ -43,17 +53,18 @@ const Header = () => {
                         objectFit="contain"
                         objectPosition="left"
                         layout="fill"
+                        onClick={() => router.push("/")}
                     />
                 </div>
 
                 <div className="flex w-6/12 md:w-4/12 items-center justify-center justify-items-end">
                     <button
-                        onClick={onClick}
+                        onClick={onSearchBarClick}
                         className={
                             "flex justify-between items-center border-2 rounded-full py-2 md:shadow-sm flex-grow pl-5 bg-transparent outline-none text-sm text-gray-600 placeholder-gray-400 hover:shadow-2xl active:scale-90 transition duration-150 rounded-full md:shadow-sm " +
                             (searching && "hidden")
                         }>
-                        Što tražiš?
+                        {searchPlaceholder ? searchPlaceholder : "Što tražiš?"}
                         <SearchIcon className="hidden sm:inline-flex h-6 bg-red-400 text-white rounded-full p-1 cursor-pointer sm:mx-2" />
                     </button>
                     <h2
@@ -74,9 +85,21 @@ const Header = () => {
             </div>
             {searching && (
                 <div className="grid grid-cols-1 lg:grid-cols-3 justify-items-stretch lg:mx-48 lg:mt-3">
-                    <SearchCard icon={HomeIcon} name="Kuće" />
-                    <SearchCard icon={OfficeBuildingIcon} name="Stanovi" />
-                    <SearchCard icon={MapIcon} name="Zemljišta" />
+                    <SearchCard
+                        icon={HomeIcon}
+                        name="Kuće"
+                        onSearch={() => onSearch("kuće")}
+                    />
+                    <SearchCard
+                        icon={OfficeBuildingIcon}
+                        name="Stanovi"
+                        onSearch={() => onSearch("stanovi")}
+                    />
+                    <SearchCard
+                        icon={MapIcon}
+                        name="Zemljišta"
+                        onSearch={() => onSearch("zemljišta")}
+                    />
                 </div>
             )}
         </header>
