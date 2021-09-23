@@ -15,7 +15,7 @@ const InfoCard = ({ image, title, description, size, price }) => {
                     <StarIcon className="h-7 cursor-pointer" />
                 </div>
 
-                <div className="border-b w-10 pt-2" />
+                <div className="hidden md:block border-b w-8 pt-2" />
 
                 <p className="hidden md:block pt-2 text-sm text-gray-500 flex-grow">
                     {description}

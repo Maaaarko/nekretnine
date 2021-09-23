@@ -22,7 +22,7 @@ const Search = ({ searchResults }) => {
             />
 
             <main className="flex">
-                <section className="flex-grow pt-14 px-6">
+                <section className="flex-grow pt-8 md:pt-14 px-6">
                     <p className="text-xs">
                         Prikazuj
                         {[2, 3, 4].includes(searchResults.length % 10)
