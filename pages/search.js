@@ -42,7 +42,7 @@ const Search = ({ searchResults }) => {
 
                     {location && <h3 className="text-2xl mb-6">test</h3>}
 
-                    <div className="flex mb-5 space-x-3 text-gray-800 whitespace-nowrap justify-end">
+                    <div className="flex mt-3 mb-1 space-x-3 text-gray-800 whitespace-nowrap md:justify-end">
                         <div className="button flex items-center space-x-3">
                             <p>Filteri</p> <AdjustmentsIcon className="h-6" />
                         </div>
