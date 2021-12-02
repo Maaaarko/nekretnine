@@ -1,4 +1,4 @@
-export default [
+const listings = [
     {
         type: "kuće",
         title: "kuća br. 1",
@@ -6,6 +6,7 @@ export default [
         image: "/images/listings/kuca1.jpg",
         size: 200,
         price: 100000,
+        id: 1,
     },
     {
         type: "kuće",
@@ -14,6 +15,7 @@ export default [
         image: "/images/listings/kuca2.jpg",
         size: 200,
         price: 200000,
+        id: 2,
     },
     {
         type: "kuće",
@@ -22,6 +24,7 @@ export default [
         image: "/images/listings/kuca3.jpg",
         size: 200,
         price: 300000,
+        id: 3,
     },
     {
         type: "kuće",
@@ -30,6 +33,7 @@ export default [
         image: "/images/listings/kuca4.jpg",
         size: 200,
         price: 400000,
+        id: 4,
     },
     {
         type: "kuće",
@@ -38,6 +42,7 @@ export default [
         image: "/images/listings/kuca5.jpg",
         size: 200,
         price: 500000,
+        id: 5,
     },
     {
         type: "stanovi",
@@ -46,6 +51,7 @@ export default [
         image: "/images/listings/stan1.jpg",
         size: 200,
         price: 300000,
+        id: 6,
     },
     {
         type: "stanovi",
@@ -54,6 +60,7 @@ export default [
         image: "/images/listings/stan2.jpg",
         size: 200,
         price: 400000,
+        id: 7,
     },
     {
         type: "stanovi",
@@ -62,5 +69,22 @@ export default [
         image: "/images/listings/stan3.jpg",
         size: 200,
         price: 500000,
+        id: 8,
     },
 ]
+
+export function getAllListingIds() {
+    return listings.map((listing) => {
+        return {
+            params: {
+                id: listing.id.toString(),
+            },
+        }
+    })
+}
+
+export function getListingData(id) {
+    return listings.find((listing) => listing.id === id)
+}
+
+export default listings

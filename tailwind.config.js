@@ -6,7 +6,14 @@ module.exports = {
     ],
     darkMode: false, // or 'media' or 'class'
     theme: {
-        extend: {},
+        extend: {
+            spacing: {
+                "1/1": "100%",
+                "1/2": "50%",
+                "1/4": "25%",
+                "1/3": "33.3%",
+            },
+        },
     },
     variants: {
         extend: {},

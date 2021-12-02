@@ -2,7 +2,7 @@ import React from "react"
 import Footer from "../components/Footer"
 import Header from "../components/Header"
 import { AdjustmentsIcon, SwitchVerticalIcon } from "@heroicons/react/solid"
-import { useRouter } from "next/dist/client/router"
+import { useRouter } from "next/router"
 import { capitalize } from "../utils"
 import InfoCard from "../components/InfoCard"
 import listings from "../dummy/listings"
@@ -42,7 +42,7 @@ const Search = ({ searchResults }) => {
 
                     {location && <h3 className="text-2xl mb-6">test</h3>}
 
-                    <div className="flex mt-3 mb-1 space-x-3 text-gray-800 whitespace-nowrap md:justify-end">
+                    <div className="flex mt-3 pb-7 space-x-3 text-gray-800 whitespace-nowrap md:justify-end">
                         <div className="button flex items-center space-x-3">
                             <p>Filteri</p> <AdjustmentsIcon className="h-6" />
                         </div>
@@ -55,17 +55,29 @@ const Search = ({ searchResults }) => {
                         {searchResults ? (
                             searchResults.map(
                                 (
-                                    { image, title, description, size, price },
-                                    id
+                                    {
+                                        image,
+                                        title,
+                                        description,
+                                        size,
+                                        price,
+                                        id,
+                                    },
+                                    idx
                                 ) => (
-                                    <InfoCard
-                                        key={id}
-                                        image={image}
-                                        title={title}
-                                        description={description}
-                                        size={size}
-                                        price={price}
-                                    />
+                                    <div
+                                        onClick={() =>
+                                            router.push(`/listing/${id}`)
+                                        }>
+                                        <InfoCard
+                                            key={idx}
+                                            image={image}
+                                            title={title}
+                                            description={description}
+                                            size={size}
+                                            price={price}
+                                        />
+                                    </div>
                                 )
                             )
                         ) : (

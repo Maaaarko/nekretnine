@@ -5,9 +5,14 @@ import { ArrowsExpandIcon } from "@heroicons/react/outline"
 
 const InfoCard = ({ image, title, description, size, price }) => {
     return (
-        <div className="flex flex-col md:flex-row py-7 px-2 border-b cursor-pointer">
+        <div className="flex flex-col md:flex-row py-7 px-7 pr-4 border-b rounded-2xl cursor-pointer hover:opacity-80 hover:shadow-lg transition duration-200 ease-out first:border-t">
             <div className="relative h-56 w-80 flex-shrink-0">
-                <Image src={image} layout="fill" objectFit="cover" />
+                <Image
+                    src={image}
+                    layout="fill"
+                    objectFit="cover"
+                    className="rounded-2xl"
+                />
             </div>
             <div className="flex flex-col flex-grow md:pl-5 px-2 mt-3">
                 <div className="flex justify-between">
