@@ -1,6 +1,12 @@
 import React, { useEffect, useState } from "react"
 import Image from "next/image"
-import { PhoneIcon, MailIcon } from "@heroicons/react/solid"
+import {
+    PhoneIcon,
+    MailIcon,
+    ArrowsExpandIcon,
+    CashIcon,
+    HomeIcon,
+} from "@heroicons/react/solid"
 import { getAllListingIds, getListingData } from "../../dummy/listings"
 import Box from "../../components/Box"
 import Header from "../../components/Header"
@@ -28,24 +34,36 @@ const Listing = ({ listingData }) => {
                         </Box>
 
                         <Box className="bg-gray-50 m-5 p-3 px-6">
-                            <h1>Cijena: {listingData.price} kn</h1>
-                            <p>
-                                Cijena po m<sup>2</sup>:{" "}
-                                {Math.round(
-                                    listingData.price / listingData.size
-                                )}{" "}
-                                kn
-                            </p>
-                            <p>
-                                Stambena površina: {listingData.size} m
-                                <sup>2</sup>
-                            </p>
+                            <div className="flex items-center space-x-3 py-2">
+                                <CashIcon className="h-4" />
+                                <p>
+                                    Cijena: {listingData.price} kn (
+                                    {Math.round(
+                                        listingData.price / listingData.size
+                                    )}{" "}
+                                    kn/m<sup>2</sup>)
+                                </p>
+                            </div>
                         </Box>
                         <Box className="bg-gray-50 m-5 px-6 p-3">
-                            <p>
-                                Ukupna površina: {listingData.sizeTotal} m
-                                <sup>2</sup>
-                            </p>
+                            <div className="flex items-center space-x-3 py-2">
+                                <ArrowsExpandIcon className="h-4" />
+                                <p>
+                                    Ukupna površina: {listingData.sizeTotal} m
+                                    <sup>2</sup>
+                                </p>
+                            </div>
+                            <div className="flex items-center space-x-3 py-2">
+                                <HomeIcon className="h-4" />
+                                <p>
+                                    Stambena površina: {listingData.size} m
+                                    <sup>2</sup>
+                                </p>
+                            </div>
+                            <br />
+                            <p>Broj soba:</p>
+                            <p>Broj kupaona:</p>
+                            <p>Još neš:</p>
                         </Box>
 
                         <div className="flex w-full">
