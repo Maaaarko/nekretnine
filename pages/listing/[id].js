@@ -129,7 +129,7 @@ const renderSection3 = (listingData) => {
             <hr className="col-span-2 my-2" />
             <div className="col-span-full">
                 <Collapsible>
-                    <div className="grid grid-cols-2">
+                    <div className="grid grid-cols-2 items-center">
                         <p>
                             <b>Spavaće sobe:</b>
                         </p>{" "}
@@ -180,7 +180,9 @@ const renderSection3 = (listingData) => {
                                 <p>
                                     <b>Površina garaže:</b>
                                 </p>{" "}
-                                <p>{listingData.garageSize}</p>
+                                <p>
+                                    {listingData.garageSize} m<sup>2</sup>
+                                </p>
                                 <hr className="col-span-2 my-2" />
                                 <p>
                                     <b>Garažna parkirna mjesta:</b>
@@ -230,38 +232,35 @@ const renderSection3 = (listingData) => {
                         <p>{listingData.utilities}</p>
                         <hr className="col-span-2 my-2" />
                         <p>
-                            <b>Balkon/lođa/terasa:</b>
+                            <b>Balkon, lođa, terasa:</b>
                         </p>{" "}
                         <p>{listingData.balcony}</p>
-                        <hr className="col-span-2 my-2" />
                         {listingData.balcony && (
                             <>
-                                <p>
-                                    <b>Tip (balkon/lođa/terasa):</b>
-                                </p>{" "}
+                                <p className="indent-8">Tip:</p>{" "}
                                 <p>{listingData.balconyType}</p>
-                                <hr className="col-span-2 my-2" />
                             </>
                         )}
+                        <hr className="col-span-2 my-2" />
                         <p>
                             <b>Bazen:</b>
                         </p>{" "}
                         <p>{listingData.pool}</p>
-                        <hr className="col-span-2 my-2" />
-                        {listingData.pool && (
+                        {listingData.pool == "Da" && (
                             <>
-                                <p>
+                                <p className="indent-8">
                                     <b>Tip bazena:</b>
                                 </p>{" "}
                                 <p>{listingData.poolType}</p>
-                                <hr className="col-span-2 my-2" />
-                                <p>
+                                <p className="indent-8">
                                     <b>Površina bazena:</b>
                                 </p>{" "}
-                                <p>{listingData.poolSize}</p>
-                                <hr className="col-span-2 my-2" />
+                                <p>
+                                    {listingData.poolSize} m<sup>2</sup>
+                                </p>
                             </>
                         )}
+                        <hr className="col-span-2 my-2" />
                         <p>
                             <b>Sauna:</b>
                         </p>{" "}

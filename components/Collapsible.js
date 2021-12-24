@@ -13,7 +13,7 @@ const Collapsible = ({ children }) => {
             <div
                 className={`text-center ${
                     !isOpen
-                        ? "backdrop-blur-sm bg-gradient-to-b from-transparent to-gray-300 -mb-3 -mt-6 -mx-6 rounded-b-3xl"
+                        ? "backdrop-blur-sm bg-gradient-to-b from-transparent to-gray-200 -mb-3 -mx-6 rounded-b-3xl"
                         : "-mb-2 mt-2"
                 }`}>
                 <button
