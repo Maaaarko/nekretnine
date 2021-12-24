@@ -237,7 +237,9 @@ const renderSection3 = (listingData) => {
                         <p>{listingData.balcony}</p>
                         {listingData.balcony && (
                             <>
-                                <p className="indent-8">Tip:</p>{" "}
+                                <p className="indent-8 mt-1">
+                                    <b>Tip:</b>
+                                </p>{" "}
                                 <p>{listingData.balconyType}</p>
                             </>
                         )}
@@ -248,12 +250,12 @@ const renderSection3 = (listingData) => {
                         <p>{listingData.pool}</p>
                         {listingData.pool == "Da" && (
                             <>
-                                <p className="indent-8">
-                                    <b>Tip bazena:</b>
+                                <p className="indent-8 mt-1">
+                                    <b>Tip:</b>
                                 </p>{" "}
                                 <p>{listingData.poolType}</p>
-                                <p className="indent-8">
-                                    <b>Površina bazena:</b>
+                                <p className="indent-8 mt-1">
+                                    <b>Površina:</b>
                                 </p>{" "}
                                 <p>
                                     {listingData.poolSize} m<sup>2</sup>
