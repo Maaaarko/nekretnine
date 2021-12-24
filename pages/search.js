@@ -7,6 +7,7 @@ import { capitalize } from "../utils"
 import InfoCard from "../components/InfoCard"
 import listings from "../dummy/listings"
 import image from "next/image"
+import { server } from "../config"
 
 const Search = ({ searchResults }) => {
     const router = useRouter()
@@ -56,22 +57,22 @@ const Search = ({ searchResults }) => {
                             searchResults.map(
                                 (
                                     {
-                                        image,
+                                        images,
                                         title,
                                         description,
                                         size,
                                         price,
-                                        id,
+                                        _id,
                                     },
                                     idx
                                 ) => (
                                     <div
                                         onClick={() =>
-                                            router.push(`/listing/${id}`)
+                                            router.push(`/listing/${_id}`)
                                         }>
                                         <InfoCard
                                             key={idx}
-                                            image={image}
+                                            image={images[0]}
                                             title={title}
                                             description={description}
                                             size={size}
@@ -97,13 +98,25 @@ const Search = ({ searchResults }) => {
 export default Search
 
 export const getServerSideProps = async ({ query }) => {
-    // const searchResults = await fetch("https://links.papareact.com/isz").then((res) => res.json())
+    try {
+        const res = await fetch(
+            `${server}/api/listings?type=${query.type}`
+        ).then((res) => res.json())
 
-    const searchResults = listings.filter((item) => item.type === query.type)
+        const searchResults = res.data
 
-    return {
-        props: {
-            searchResults,
-        },
+        return {
+            props: {
+                searchResults,
+                error: false,
+            },
+        }
+    } catch (error) {
+        return {
+            props: {
+                searchResults: [],
+                error: error,
+            },
+        }
     }
 }

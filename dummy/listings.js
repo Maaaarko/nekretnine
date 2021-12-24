@@ -1,6 +1,6 @@
 const listings = [
     {
-        type: "kuće",
+        type: "kuce",
         title: "kuća br. 1",
         description: "opis kuće br. 1",
         image: "/images/listings/kuca1.jpg",
@@ -12,7 +12,7 @@ const listings = [
         id: 1,
     },
     {
-        type: "kuće",
+        type: "kuce",
         title: "kuća br. 2",
         description:
             "Ovo je opis kuće br. 2. Ova kuća je baš lijepa. U nju stane cijeeeeela obitelj. I pas. I mačka. I baka. I deda. I svi. U njoj ima puno soba. Sto plus sto je dvjesto. Dva na treću je osam. Ovo je jako zabavno za pisat. Tralala. Još moram smislit malo teksta da vidim kak će izgledat. Tralalala. Zasad mi se sviđa kako ovo izgleda.",
@@ -25,7 +25,7 @@ const listings = [
         id: 2,
     },
     {
-        type: "kuće",
+        type: "kuce",
         title: "kuća br. 3",
         description: "opis kuće br. 3",
         image: "/images/listings/kuca3.jpg",
@@ -37,7 +37,7 @@ const listings = [
         id: 3,
     },
     {
-        type: "kuće",
+        type: "kuce",
         title: "kuća br. 4",
         description: "opis kuće br. 4",
         image: "/images/listings/kuca4.jpg",
@@ -49,7 +49,7 @@ const listings = [
         id: 4,
     },
     {
-        type: "kuće",
+        type: "kuce",
         title: "kuća br. 5",
         description: "opis kuće br. 5",
         image: "/images/listings/kuca5.jpg",
@@ -102,14 +102,14 @@ export function getAllListingIds() {
     return listings.map((listing) => {
         return {
             params: {
-                id: listing.id.toString(),
+                _id: listing._id.toString(),
             },
         }
     })
 }
 
-export function getListingData(id) {
-    return listings.find((listing) => listing.id === id)
+export function getListingData(_id) {
+    return listings.find((listing) => listing._id === _id)
 }
 
 export default listings

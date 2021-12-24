@@ -88,7 +88,7 @@ const Header = ({ searchPlaceholder }) => {
                     <SearchCard
                         icon={HomeIcon}
                         name="Kuće"
-                        onSearch={() => onSearch("kuće")}
+                        onSearch={() => onSearch("kuce")}
                     />
                     <SearchCard
                         icon={OfficeBuildingIcon}
@@ -98,7 +98,7 @@ const Header = ({ searchPlaceholder }) => {
                     <SearchCard
                         icon={MapIcon}
                         name="Zemljišta"
-                        onSearch={() => onSearch("zemljišta")}
+                        onSearch={() => onSearch("zemljista")}
                     />
                 </div>
             )}

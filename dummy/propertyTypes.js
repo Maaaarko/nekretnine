@@ -5,7 +5,7 @@ export default [
     },
     {
         image: "/images/propertyTypes/kuca.png",
-        name: "Kuće",
+        name: "Kuce",
     },
     {
         image: "/images/propertyTypes/zemljista.png",
