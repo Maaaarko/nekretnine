@@ -60,7 +60,7 @@ const Search = ({ searchResults }) => {
                                         images,
                                         title,
                                         description,
-                                        size,
+                                        livingArea,
                                         price,
                                         _id,
                                     },
@@ -75,7 +75,7 @@ const Search = ({ searchResults }) => {
                                             image={images[0]}
                                             title={title}
                                             description={description}
-                                            size={size}
+                                            livingArea={livingArea}
                                             price={price}
                                         />
                                     </div>

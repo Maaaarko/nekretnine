@@ -3,9 +3,10 @@ import Image from "next/image"
 import { StarIcon } from "@heroicons/react/outline"
 import { ArrowsExpandIcon } from "@heroicons/react/outline"
 
-const InfoCard = ({ image, title, description, size, price }) => {
+const InfoCard = ({ image, title, description, livingArea, price }) => {
+    console.log(livingArea)
     return (
-        <div className="flex flex-col md:flex-row py-7 px-7 pr-4 border-b rounded-2xl cursor-pointer hover:opacity-80 hover:shadow-lg transition duration-200 ease-out first:border-t">
+        <div className="flex flex-col md:flex-row py-7 px-7 pr-4 border rounded-md cursor-pointer hover:opacity-80 hover:shadow-lg transition duration-200 ease-out first:border-t">
             <div className="relative h-56 w-80 flex-shrink-0">
                 <Image
                     src={image}
@@ -29,7 +30,7 @@ const InfoCard = ({ image, title, description, size, price }) => {
                 <div className="flex justify-between">
                     <p className="hidden md:inline-flex items-center text-gray-500">
                         <ArrowsExpandIcon className="h-5 text-gray-500 mr-1" />
-                        {size} m<sup>2</sup>
+                        {livingArea} m<sup>2</sup>
                     </p>
                     <div className="flex flex-grow md:flex-grow-0 justify-between md:block">
                         <div>
@@ -39,7 +40,8 @@ const InfoCard = ({ image, title, description, size, price }) => {
                         </div>
                         <div>
                             <p className="text-right text-gray-500">
-                                {Math.round(price / size)} kn/m<sup>2</sup>
+                                {Math.round(price / livingArea)} kn/m
+                                <sup>2</sup>
                             </p>
                         </div>
                     </div>

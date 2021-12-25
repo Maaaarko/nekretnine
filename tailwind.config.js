@@ -12,6 +12,7 @@ module.exports = {
                 "1/2": "50%",
                 "1/4": "25%",
                 "1/3": "33.3%",
+                "9/16": "56.25%",
             },
             transitionProperty: {
                 height: "height",

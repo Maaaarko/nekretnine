@@ -14,6 +14,7 @@ import Footer from "../../components/Footer"
 import { server } from "../../config"
 import { getFieldName } from "../../fieldNames"
 import Collapsible from "../../components/Collapsible"
+import ImageSlider from "../../components/ImageSlider"
 
 const Listing = ({ listingData }) => {
     return (
@@ -25,7 +26,7 @@ const Listing = ({ listingData }) => {
                 </h1>
                 <div className="grid grid-cols-1 md:grid-cols-4">
                     <div className="col-span-3">
-                        {renderImages(listingData)}
+                        {renderImageGallery(listingData)}
 
                         {renderSection1(listingData)}
                         {renderSection2(listingData)}
@@ -50,12 +51,16 @@ const Listing = ({ listingData }) => {
     )
 }
 
-const renderImages = (listingData) => {
+const renderImageGallery = (listingData) => {
+    return <ImageSlider images={listingData.images} />
+}
+
+const renderImage = (image) => {
     return (
         <Box className="m-5 p-1">
             <div className="relative flex-shrink-0 pb-1/2 shadow-xl shadow-gray-400/70">
                 <Image
-                    src={listingData.images[0]}
+                    src={image}
                     layout="fill"
                     objectFit="cover"
                     className="rounded"
