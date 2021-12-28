@@ -13,7 +13,7 @@ function FormField(props) {
                 return <TextInputField {...props} />
             case "textarea":
                 return <TextAreaField {...props} />
-            case "boolean":
+            case "choice":
                 return <ChoiceField {...props} />
             case "integer":
                 return <IntegerField {...props} />

@@ -14,7 +14,9 @@ const ChoiceField = (props) => {
 
     return (
         <div className="flex flex-grow flex-wrap">
-            <p className="mx-2 w-full">{label}</p>
+            <p className="mx-2 w-full">
+                <b>{label}</b>
+            </p>
             <div className="flex flex-wrap  w-full md:w-1/2 m-2">
                 {choices.map((choice, idx) => (
                     <div

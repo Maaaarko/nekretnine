@@ -4,18 +4,41 @@ function useForm(formObj, part) {
     const [form, setForm] = useState(formObj)
 
     function renderFormInputs() {
-        return Object.values(form).map((inputObj) => {
-            const { value, label, errorMessage, valid, touched, renderInput } =
-                inputObj
-            return renderInput(
-                onInputChange,
-                value,
-                valid,
-                touched,
-                errorMessage,
-                label
+        return Object.values(form)
+            .filter((inputObj) =>
+                inputObj.prerequisites
+                    ? inputObj.prerequisites.every(
+                          (pr) => form[pr.name].value === pr.value
+                      )
+                    : true
             )
-        })
+            .map((inputObj) => {
+                const {
+                    value,
+                    name,
+                    label,
+                    errorMessage,
+                    valid,
+                    touched,
+                    prerequisites = [],
+                    renderInput,
+                } = inputObj
+
+                const shouldBeRendered = prerequisites.every(
+                    (pr) => form[pr.name].value === pr.value
+                )
+
+                console.log(name, shouldBeRendered)
+
+                return renderInput(
+                    onInputChange,
+                    value,
+                    valid,
+                    touched,
+                    errorMessage,
+                    label
+                )
+            })
     }
 
     const isInputFieldValid = useCallback(

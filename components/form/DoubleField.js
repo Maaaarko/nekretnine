@@ -14,7 +14,9 @@ const DoubleField = (props) => {
 
     return (
         <>
-            <p className="mx-2 w-full">{label}</p>
+            <p className="mx-2 w-full">
+                <b>{label}</b>
+            </p>
             <input
                 type={type}
                 step="0.01"

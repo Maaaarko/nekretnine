@@ -42,6 +42,8 @@ function createFormFieldConfig(
             )
         },
         label,
+        name,
+        type,
         value: defaultValue,
         valid: false,
         errorMessage: "",
@@ -59,12 +61,27 @@ export const newListingForm = {
         ],
     },
     type: {
-        ...createFormFieldConfig("Tip", "type", "boolean", undefined, [
+        ...createFormFieldConfig("Tip", "type", "choice", undefined, [
             { label: "Kuća", value: "kuce" },
             { label: "Stan", value: "stanovi" },
         ]),
-
         validationRules: [requiredRule("type")],
+    },
+    subTypeKuce: {
+        ...createFormFieldConfig("Podtip", "subTypeKuca", "choice", undefined, [
+            { label: "Kuća u nizu", value: "kucaNiz" },
+            { label: "Kuća s okućnicom", value: "kucaOkucnica" },
+        ]),
+        validationRules: [requiredRule("type")],
+        prerequisites: [{ name: "type", value: "kuce" }],
+    },
+    subTypeStanovi: {
+        ...createFormFieldConfig("Podtip", "subTypeStan", "choice", undefined, [
+            { label: "Stan", value: "stanStan" },
+            { label: "Penthouse", value: "stanPenthouse" },
+        ]),
+        validationRules: [requiredRule("type")],
+        prerequisites: [{ name: "type", value: "stanovi" }],
     },
     description: {
         ...createFormFieldConfig("Opis", "description", "textarea"),

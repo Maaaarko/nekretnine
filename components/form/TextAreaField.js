@@ -13,7 +13,9 @@ const TextAreaField = (props) => {
     } = props
     return (
         <>
-            <p className="mx-2 w-full">{label}</p>
+            <p className="mx-2 w-full">
+                <b>{label}</b>
+            </p>
             <textarea
                 name={name}
                 value={value}
